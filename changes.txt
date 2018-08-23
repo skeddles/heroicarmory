@@ -1,0 +1,324 @@
+Non-obvious changes from 1.11 to 1.12
+ForgeRegistries.ITEMS.register, ForgeRegistries.BLOCKS.register etc instead of GameRegistry.register
+Item.getSubItems() signature change, and vanilla Items no longer add subitems unless the tab parameter equals CreativeTabs.SEARCH
+Particle.shouldDisableDepth() instead of .isTransparent()
+IPerspectiveAwareModel has been integrated into IBakedModel
+Items in recipes now default to using WILDCARD, i.e. damaged items will still match the recipe.
+
+Changes from 1.10.2 to 1.11
+A major change is that itemStacks can't be null anymore, the EMPTY item is used instead.  i.e.
+When the player's hand is empty, the ItemStack is no longer null.  instead, the itemStack.isEmpty() returns true.
+An empty ItemStack is ItemStack.EMPTY - use this instead of Null for ItemStacks.
+
+Block.getCollisionBoundingBox has changed signature to use IBlockAccess instead of World.  IBlockAccess is used for
+   methods which are called by multithreaded access, typically chunk rendering (compiling rendering lists)
+   or AI (entity decision logic)
+Block.getSubBlocks() signature change to use NonNullList
+CreativeTabs.displayAllRelevantItems signature change to use NonNullList
+Item.onItemRightClick: signature change.  get ItemStackIn from playerIn.getHeldItem(hand);
+Block.onBlockActivated : signature change.  get held ItemStack from playerIn.getHeldItem(hand);
+Item.onItemRightClick() and .onItemUse(): signature change.  get ItemStackIn from playerIn.getHeldItem(hand);
+ItemStack stacksize is now private.  Access through:
+   getter: getCount()
+   setter: setCount()
+   grow(int i) : increase stacksize by i
+   shrink(int i) : decrease stacksize by i
+An empty ItemStack is ItemStack.EMPTY - use this instead of Null for ItemStacks
+ItemStack.loadItemStackFromNBT() has been changed to a constructor instead
+
+Slot.onPickupFromSlot has changed to onTake()
+
+Blocks, Items, and Model Registry
+https://github.com/LexManos/VoidUtils/blob/master/src/main/java/net/minecraftforge/lex/voidutils/VoidUtils.java
+Block.neighborChanged() now has extra BlockPos for the neighbor block
+
+Changes from 1.8.9 to 1.10.2
+
+EntityPlayerMP.theItemInWorldManager -> EntityPlayerMP.interactionManager
+BlockRenderLayer -> BlockRenderLayer
+GameRegistry.findItem -> Item.REGISTRY.getObject(new ResourceLocation(...))
+Material.rock etc have new names
+CreativeTabs.blocks etc have new names
+
+
+For better or for worse, they have changed the registration methods for blocks and items; ItemBlocks also require
+  explicit registration of the Item (previously, Forge did it automatically).
+
+BlockRenderLayer ->  BlockRenderLayer
+
+BlockState has become BlockStateContainer
+
+WorldRenderer has become VertexBuffer
+
+Vec3 has become Vec3d
+
+AxisAlignedBB, ModelResourceLocation, and BlockPos have moved packages
+
+MovingObjectPosition is RayTraceResult
+
+BlockBounds are now replaced with AABB
+ChangeBlockBounds based on state is all by pull, not push.  Uses final AABB.
+
+The appearance of some items and blocks has changed because the isGui3D no longer affects the rotation, i.e.
+  3D blocks previously defaulted to an isometric view, but now they are the same as the default face-on view.
+  isGui3D now affects lighting only.
+
+For some reason, not longer copied assets to the run folder:
+C:\Users\TGG\IdeaProjects\MinecraftByExample1-10-2\out\production\MinecraftByExample1-10-2\assets\minecraftbyexample
+See FMLClientHandler::addModAsResource()
+
+Addition of left and right hand means the item transforms have changed.
+Now have:
+    "thirdperson_righthand":
+    "thirdperson_lefthand":
+    "firstperson_righthand":
+    "firstperson_lefthand":
+
+ISmartItemModel, ISmartBlockModel, IFlexibleBakedModel are all gone
+They are no longer there because they are no longer needed.
+IBakedModel now has has a IBlockState argument in getQuads and ItemOverrideList (returned from IBakedModel#getOverrides) has the functionality of ISmartItemModel.
+
+onItemUseXXXX methods have a different return value; changed to include which Hand is being used
+
+    playerIn.setItemInUse(itemStackIn, this.getMaxItemUseDuration(itemStackIn)); replaced by playerIn.setActiveHand(hand)
+
+ItemColors instead of getColorFromItemStack
+call registerItemColorHandler with IItemColor
+Minecraft.getItemColors()  (tint index)
+
+Items have a propertyOverride for animation -?
+
+are itemoverrides the same as the ItemPropertyGetter properties?
+They are starting to abstract methods to getters
+eg
+DAMAGED_GETTER
+DAMAGE_GETTER
+LEFT_HANDED_GETTER
+---> ItemPropertyGetter
+
+The item file has overrides in it, to look up a model based on one or more particular predicates
+
+Minecraft.getBlockColors()  (colorMultiplier - from blockstate, position, tintindex)
+
+EntityPlayer.isUsingItem() -> .isHandActive()
+
+Sound effects now by ENUM not string
+
+TileEntity synching is changed from getDescriptionPacket() and onDataPacket() to:
+  getUpdatePacket(), getUpdateTag(), onDataPacket(), and handleUpdateTag()
+
+entity.setDead() is entity.setExpired()
+
+Block.onNeighborBlockChange()  is neighborChanged()
+
+BlockColors instead of Block.colorMultiplier()
+call registerItemColorHandler with IItemColor
+Minecraft.getItemColors()  (tint index)
+
+
+
+-----------
+
+New block & Item registration:
+
+Instead of creating your Block and registering it with GameRegistry.registerBlock, create your Block, set its registry name (using the IForgeRegistryEntry#setRegistryName method or one of the overloads from IForgeRegistryEntry.Impl, all of which are inherited by the Block class) and register it with GameRegistry.register.
+
+You also need to create the ItemBlock, set its registry name to the Block's registry name and register it with GameRegistry.register.
+
+The same process applies to any other IForgeRegistryEntry implementation (e.g. Item, BiomeGenBase, SoundEvent): create the instance, set its registry name and then register it with GameRegistry.register.
+
+ModelLoader.setCustomModelResourceLocation and ModelLoader.setCustomMeshDefinition take exactly the same arguments as the corresponding overloads of ItemModelMesher#register. The main difference is that they need to be called in preInit rather than init.
+
+Never use unlocalised names for anything other than translation purposes, there's no reason to use getUnlocalizedName().substring(5) anywhere in your code. The default model loaded for every Item is the one with its registry name (which is unrelated to the unlocalised name), so use the registry name for the default model location.
+
+If you want, you can set the unlocalised name to the full registry name so it includes your mod ID (avoiding conflicts with other mods).
+
+You can see how I register my Blocks here. This uses Java 8's lambdas/method references, if you're targeting Java 6/7 you'd need to use Guava's functional interfaces and anonymous classes instead (or an alternative solution).
+
+You can see how I register models for my Blocks/Items here.
+
+	/**
+	 * Register a Block with a custom ItemBlock class.
+	 *
+	 * @param <BLOCK>     The Block type
+	 * @param block       The Block instance
+	 * @param itemFactory A function that creates the ItemBlock instance, or null if no ItemBlock should be created
+	 * @return The Block instance
+	 */
+	protected static <BLOCK extends Block> BLOCK registerBlock(BLOCK block, @Nullable Function<BLOCK, ItemBlock> itemFactory) {
+		GameRegistry.register(block);
+
+		if (itemFactory != null) {
+			final ItemBlock itemBlock = itemFactory.apply(block);
+
+			GameRegistry.register(itemBlock.setRegistryName(block.getRegistryName()));
+		}
+
+		blocks.add(block);
+		return block;
+	}
+
+
+
+-----------
+Hey,
+
+If you're wanting to learn how to use the new registry system, then look no further, I'll give you a step by step guide on using it for both blocks and items.
+
+For Items:
+1) Create your Item Instance.
+2) Set your "Registry Name" against the Item Instance.
+3) Set the unlocalizedname against the Item Instance, you don't need to substring it.
+4) Register your Item.
+
+For Blocks:
+1) Create your Block instance.
+2) Set the registry name against the block instance.
+3) Set the unlocalizedname against the instance.
+4) Create your ItemBlock Instance.
+5) Set the ItemBlock registry name to the block instance registry name.
+6) Set the ItemBlock unlocalizedname to the block instances unlocalizedname.
+7) Register Block
+8) Register ItemBlock
+
+
+----------------
+Models:
+@SideOnly(Side.CLIENT)
+public class ModModelManager {
+	public static final ModModelManager INSTANCE = new ModModelManager();
+
+	private static final String FLUID_MODEL_PATH = Constants.RESOURCE_PREFIX + "fluid";
+
+	private ModModelManager() {
+	}
+
+	public void registerAllModels() {
+		registerFluidModels();
+		registerBlockModels();
+		registerItemModels();
+	}
+
+	private void registerFluidModels() {
+		ModFluids.modFluidBlocks.forEach(this::registerFluidModel);
+	}
+
+	private void registerFluidModel(IFluidBlock fluidBlock) {
+		final Item item = Item.getItemFromBlock((Block) fluidBlock);
+
+		ModelBakery.registerItemVariants(item);
+
+		ModelResourceLocation modelResourceLocation = new ModelResourceLocation(FLUID_MODEL_PATH, fluidBlock.getFluid().getName());
+
+		ModelLoader.setCustomMeshDefinition(item, MeshDefinitionFix.create(stack -> modelResourceLocation));
+
+		ModelLoader.setCustomStateMapper((Block) fluidBlock, new StateMapperBase() {
+			@Override
+			protected ModelResourceLocation getModelResourceLocation(IBlockState p_178132_1_) {
+				return modelResourceLocation;
+			}
+		});
+
+		itemsRegistered.add(item);
+	}
+
+	private void registerBlockModels() {
+		ModelLoader.setCustomStateMapper(ModBlocks.waterGrass, new StateMap.Builder().ignore(BlockLiquid.LEVEL).build());
+
+		registerBlockItemModel(ModBlocks.rightClickTest, new ModelResourceLocation(ModBlocks.rightClickTest.getRegistryName(), "has_ender_eye=false"));
+
+		for (EnumDyeColor color : EnumDyeColor.values()) {
+			registerBlockItemModelForMeta(ModBlocks.coloredRotatable, color.getMetadata(), String.format("color=%s,facing=north", color.getName()));
+			registerBlockItemModelForMeta(ModBlocks.coloredMultiRotatable, color.getMetadata(), String.format("color=%s,face_rotation=up,facing=north", color.getName()));
+
+			BlockColouredSlab.EnumColourGroup colourGroup = BlockColouredSlab.EnumColourGroup.getGroupForColour(color);
+			if (colourGroup != null) {
+				registerBlockItemModelForMeta(ModBlocks.stainedClaySlabs.getSlabGroupByColourGroup(colourGroup).singleSlab, colourGroup.getOffsetMetadata(color), String.format("colour=%s,half=bottom", color.getName()));
+			}
+		}
+
+		for (BlockVariants.EnumType enumType : BlockVariants.EnumType.values()) {
+			registerBlockItemModelForMeta(ModBlocks.variants, enumType.getMeta(), "variant=" + enumType.getName());
+		}
+
+		registerBlockItemModel(ModBlocks.mirrorPlane, new ModelResourceLocation(ModBlocks.mirrorPlane.getRegistryName(), "horizontal_rotation=north,vertical_rotation=up"));
+
+		ModBlocks.blocks.stream().filter(block -> !itemsRegistered.contains(Item.getItemFromBlock(block))).forEach(this::registerBlockItemModel);
+	}
+
+	private void registerBlockItemModel(Block block) {
+		Item item = Item.getItemFromBlock(block);
+		if (item != null) {
+			registerItemModel(item);
+		}
+	}
+
+	private void registerBlockItemModel(Block block, String modelLocation) {
+		registerItemModel(Item.getItemFromBlock(block), modelLocation);
+	}
+
+	private void registerBlockItemModel(Block block, ModelResourceLocation fullModelLocation) {
+		registerItemModel(Item.getItemFromBlock(block), fullModelLocation);
+	}
+
+	private void registerBlockItemModelForMeta(Block block, int metadata, String variant) {
+		registerItemModelForMeta(Item.getItemFromBlock(block), metadata, variant);
+	}
+
+	private final Set<Item> itemsRegistered = new HashSet<>();
+
+	private void registerItemModels() {
+		// Register items with custom model names first
+		registerItemModel(ModItems.snowballLauncher, "minecraft:fishing_rod");
+		registerItemModel(ModItems.unicodeTooltips, "minecraft:rabbit");
+		registerItemModel(ModItems.swapTestA, "minecraft:brick");
+		registerItemModel(ModItems.swapTestB, "minecraft:netherbrick");
+		registerItemModel(ModItems.blockDebugger, "minecraft:nether_star");
+		registerItemModel(ModItems.woodenHarvestSword, "minecraft:wooden_sword");
+		registerItemModel(ModItems.diamondHarvestSword, "minecraft:diamond_sword");
+		registerItemModel(ModItems.clearer, "minecraft:nether_star");
+		registerItemModel(ModItems.heightTester, "minecraft:compass");
+		registerItemModel(ModItems.heavy, "minecraft:brick");
+		registerItemModel(ModItems.entityTest, "minecraft:porkchop");
+		registerItemModel(ModItems.blockDestroyer, "minecraft:tnt_minecart");
+		registerItemModel(ModItems.replacementHelmet, "minecraft:chainmail_helmet");
+		registerItemModel(ModItems.replacementChestplate, "minecraft:chainmail_chestplate");
+		registerItemModel(ModItems.repacementLeggings, "minecraft:chainmail_leggings");
+		registerItemModel(ModItems.replacementBoots, "minecraft:chainmail_boots");
+		registerItemModel(ModItems.pigSpawnerFinite, "minecraft:porkchop");
+		registerItemModel(ModItems.pigSpawnerInfinite, "minecraft:porkchop");
+		registerItemModel(ModItems.respawner, "minecraft:clock");
+		registerItemModel(ModItems.lootTableTest, "minecraft:gold_ingot");
+
+		// Then register items with default model names
+		ModItems.items.stream().filter(item -> !itemsRegistered.contains(item)).forEach(this::registerItemModel);
+	}
+
+	private void registerItemModel(Item item) {
+		registerItemModel(item, item.getRegistryName().toString());
+	}
+
+	private void registerItemModel(Item item, String modelLocation) {
+		final ModelResourceLocation fullModelLocation = new ModelResourceLocation(modelLocation, "inventory");
+		registerItemModel(item, fullModelLocation);
+	}
+
+	private void registerItemModel(Item item, ModelResourceLocation fullModelLocation) {
+		ModelBakery.registerItemVariants(item, fullModelLocation); // Ensure the custom model is loaded and prevent the default model from being loaded
+		registerItemModel(item, MeshDefinitionFix.create(stack -> fullModelLocation));
+	}
+
+	private void registerItemModel(Item item, ItemMeshDefinition meshDefinition) {
+		itemsRegistered.add(item);
+		ModelLoader.setCustomMeshDefinition(item, meshDefinition);
+	}
+
+	private void registerItemModelForMeta(Item item, int metadata, String variant) {
+		registerItemModelForMeta(item, metadata, new ModelResourceLocation(item.getRegistryName(), variant));
+	}
+
+	private void registerItemModelForMeta(Item item, int metadata, ModelResourceLocation modelResourceLocation) {
+		itemsRegistered.add(item);
+		ModelLoader.setCustomModelResourceLocation(item, metadata, modelResourceLocation);
+	}
+}

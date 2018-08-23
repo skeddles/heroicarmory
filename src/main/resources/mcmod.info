@@ -1,0 +1,16 @@
+[
+{
+  "modid": "heroicarmory",
+  "name": "Heroic Armory",
+  "description": "Rare and useful treasures from heroes of the past!",
+  "version": "1.12.2",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["TGG and others"],
+  "credits": "suppergerrie2.com",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

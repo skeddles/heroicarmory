@@ -1,0 +1,28 @@
+#Lord of the Rings
+item.narsil.name=Narsil
+item.sauronMace.name=Sauron's Mace
+item.witchKingSword.name=Sword of the Witch King
+item.morgulBlade.name=Morgul-Blade
+item.gimliBattleAxe.name=Gimli's Battle Axe
+item.gimliLongAxe.name=Gimli's Long Axe
+item.sting.name=Sting
+#
+#Realm of the Mad God
+item.ravenheartSword.name=Ravenheart Sword
+item.dragonsoulSword.name=Dragonsoul Sword
+item.archonSword.name=Archon Sword
+item.skysplitterSword.name=Skysplitter Sword
+item.swordofAcclaim.name=Sword of Acclaim
+item.swordofSplendor.name=Sword of Splendor
+item.crystalSword.name=Crystal Sword
+item.ancientStoneSword.name=Ancient Stone Sword
+item.pirateKingCutlass.name=Pirate King's Cutlass
+item.demonBlade.name=Demon Blade
+item.swordoftheColossus.name=Sword of the Colossus
+item.swordoftheMadGod.name=Sword of the Mad God
+item.pixieEnchantedSword.name=Pixie-Enchanted Sword
+item.indomptable.name=Indomptable
+#
+#Creative Tab
+itemGroup.tabHeroicArmory=Heroic Armory
+
