@@ -16,6 +16,22 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.init.Items; //dont need once custom
+import net.minecraft.world.storage.loot.LootContext;
+import net.minecraft.world.storage.loot.LootEntry;
+import net.minecraft.world.storage.loot.LootEntryTable;
+import net.minecraft.world.storage.loot.LootEntryItem;
+import net.minecraft.world.storage.loot.LootPool;
+import net.minecraft.world.storage.loot.LootTableList;
+import net.minecraft.world.storage.loot.RandomValueRange;
+import net.minecraft.world.storage.loot.conditions.KilledByPlayer;
+import net.minecraft.world.storage.loot.conditions.LootCondition;
+import net.minecraft.world.storage.loot.functions.LootFunction;
+import net.minecraft.world.storage.loot.functions.SetCount;
+import net.minecraft.world.storage.loot.functions.SetDamage;
+import net.minecraftforge.event.LootTableLoadEvent;
+
 @Mod.EventBusSubscriber(modid=Reference.MODID)
 public class ModItems {
 	
@@ -144,6 +160,9 @@ public class ModItems {
 		swordoftheMadGod = new Sword("swordoftheMadGod", SWORDOFTHEMADGODMAT).setCreativeTab(tabHeroicArmory);
 		pixieEnchantedSword = new Sword("pixieEnchantedSword", PIXIEENCHANTEDSWORDMAT).setCreativeTab(tabHeroicArmory);
 		indomptable = new Sword("indomptable", INDOMPTABLEMAT).setCreativeTab(tabHeroicArmory);
+		
+		//Loot Tables
+		LootTableList.register(new ResourceLocation("heroicarmory", "loot"));
 	}
 	
 	@SubscribeEvent
@@ -185,4 +204,23 @@ public class ModItems {
 	private static void registerRender(Item item) {
 		ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation( item.getRegistryName(), "inventory"));
 	}
+	
+	
+	//loot tables
+	@SubscribeEvent
+	public void lootLoad(LootTableLoadEvent evt) {
+		String prefix = "minecraft:chests/";
+		String name = evt.getName().toString();
+		System.out.println("LootTableLoadEvent");
+		
+		if (name.startsWith(prefix)) {
+			System.out.println("Name Match");
+			LootEntry entry = new LootEntryTable(new ResourceLocation("heroicarmory:loot"), 1, 0, new LootCondition[0], "heroicarmorylootentry"); 
+
+			LootPool pool = new LootPool(new LootEntry[] {entry}, new LootCondition[0], new RandomValueRange(1), new RandomValueRange(1), "heroicarmorypool"); 
+			
+			evt.getTable().addPool(pool);
+		}
+	}
+
 }
