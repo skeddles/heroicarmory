@@ -2,14 +2,14 @@
 {
   "modid": "heroicarmory",
   "name": "Heroic Armory",
-  "description": "Rare and useful treasures from heroes of the past!",
-  "version": "1.12.2",
+  "description": "Rare and useful weapons from heroes of the past!",
+  "version": "1.0",
   "mcversion": "${mcversion}",
-  "url": "",
+  "url": "http://samkeddy.com",
   "updateUrl": "",
-  "authorList": ["TGG and others"],
-  "credits": "suppergerrie2.com",
-  "logoFile": "",
+  "authorList": ["Sam Keddy"],
+  "credits": "",
+  "logoFile": "logo.png",
   "screenshots": [],
   "dependencies": []
 }

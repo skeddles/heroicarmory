@@ -1,0 +1,131 @@
+Group,Name,LayerName,Model,Damage,Durability,Enchantability,Rarity
+lotr,Gimli's Battle Axe,Gimli's Battle Axe,32x,7,4100,8,8
+lotr,Gimli's Long Axe,Gimli's Long Axe,32x,7,3600,8,12
+lotr,Morgul Blade,Morgul Blade,dagger,6,100,15,10
+lotr,Sting,Sting,dagger,5,2100,28,12
+lotr,Glamdring,Glamdring,16x,6,3000,30,7
+lotr,Anduril,Anduril,16x,7,1000,12,8
+lotr,Narsil,Narsil,16x,8,2000,12,7
+lotr,Sauron's Mace,Sauron's Mace,sauronmace,14,3000,8,1
+lotr,Witch King's Sword,Witch King's Sword,16x,7,2500,15,6
+loz,Master Sword,Master Sword,16x,7,3000,15,10
+loz,Master Sword II,Master Sword II,16x,8,4500,10,6
+loz,Tempered Sword,Tempered Sword,16x,8,4500,10,6
+loz,Master Sword III,Master Sword III,16x,9,7000,8,5
+loz,Golden Sword,Golden Sword,16x,9,7000,8,5
+loz,Flameblade,Flameblade,16x,6,2000,10,14
+loz,Darknut Sword,Darknut Sword[Tp],32x,9,2800,12,4
+loz,Ghirahim Sword,Ghirahim Sword,32x,7,3000,18,4
+loz,Fierce Diety's Sword,Fierce Diety's Sword,16x,8,1600,20,10
+loz,Zelda's Sword,Zelda's Sword,16x,6,2000,18,15
+loz,Boko Stick,Boko Stick,16x,4,150,20,18
+loz,Cane of Byrna,Cane of Byrna,16x,5,800,32,12
+loz,Megaton Hammer,Megaton Hammer,32x,7,3200,15,5
+loz,Kokiri Sword,Kokiri Sword[Mm],16x,5,750,15,16
+loz,Kokiri Sword,Kokiri Sword[OoT],16x,5,750,15,16
+loz,Demise's Sword,Demise's Sword,32x,9,2000,8,8
+loz,Giant's Knife,Giant's Knife,32x,8,40,10,12
+loz,Biggoron's Sword,Biggoron's Sword,32x,8,8000,10,5
+loz,Phantom Ganon's Sword,Phantom Ganon's Sword,32x,9,3000,15,5
+loz,Ultimate Sword,Ultimate Sword,16x,7,1000,15,12
+loz,Royal Guard's Sword,Royal Guard's Sword,16x,6,1500,15,15
+loz,Magic Sword,Magic Sword[Concept],16x,9,1600,38,7
+loz,Magic Sword,Magic Sword,16x,9,1600,38,7
+loz,White Sword,White Sword,16x,7,2600,10,12
+loz,White Sword,White Sword[Concept],16x,7,2600,10,12
+loz,Picori Blade,Picori Blade,16x,6,2000,15,14
+loz,Razor Sword,Razor Sword,16x,6,2600,12,12
+loz,Great Fairy's Sword,Great Fairy's Sword,16x,8,2800,20,7
+loz,Goddess White Sword,Goddess White Sword,16x,7,1600,15,10
+loz,Goddess Sword,Goddess Sword,16x,7,1600,15,10
+loz,Gilded Sword,Gilded Sword,16x,7,2800,28,6
+at,Jake's Sword,Jake's Sword,16x,6,2000,10,12
+at,Crystal Sword,Crystal Sword,16x,6,3000,10,10
+at,Nothung,Nothung,16x,8,3000,10,2
+at,Finn Sword,Finn Sword,16x,7,2800,11,5
+at,Sword of the Dead,Sword of the Dead,16x,7,2800,10,11
+at,Wish Star Sword,Wish Star Sword,wishstar,7,2800,15,12
+at,Fight King Sword,Fight King Sword,32x,8,400,5,6
+at,Root Sword,Root Sword,16x,7,1800,15,12
+at,Scarlet,Scarlet,16x,7,2800,28,8
+at,Grass Sword,Grass Sword,16x,6,600,14,10
+at,Demon Blood Sword,Demon Blood Sword,16x,7,2800,22,7
+ff,The Masamune,The Masamune,48x,7,3000,15,10
+ff,Buster Sword,Buster Sword,bustersword,9,3000,15,2
+rotmg,Sword of the Colossus,Sword of the Colossus,32x,8,3600,15,6
+rotmg,Crystal Sword,Crystal Sword,32x,7,2200,15,10
+rotmg,Pixie-Enchanted Sword,Pixie-Enchanted Sword,16x,9,1400,15,4
+rotmg,Sword Of Acclaim,Sword Of Acclaim,16x,8,2600,15,11
+rotmg,Demon Blade,Demon Blade,32x,9,3200,15,4
+rotmg,Sword of the Mad God,Sword of the Mad God,16x,8,2800,15,12
+rotmg,Indomptable,Indomptable,16x,9,600,15,5
+rotmg,Pirate King's Cutlass,Pirate King's Cutlass,16x,6,600,15,13
+rotmg,Sword of Splendor,Sword of Splendor,16x,8,3000,15,9
+rotmg,Skysplitter Sword,Skysplitter Sword,16x,7,2000,15,12
+rotmg,Archon Sword,Archon Sword,16x,7,1400,15,14
+rotmg,Ancient Stone Sword,Ancient Stone Sword,32x,8,750,15,8
+rotmg,Dragonsoul Sword,Dragonsoul Sword,16x,6,800,15,10
+rotmg,Ravenheart Sword,Ravenheart Sword,16x,6,400,15,17
+sc,Firangi,Firangi,16x,6,1600,15,12
+sc,Cocytus,Cocytus,16x,7,1600,15,10
+sc,Erlang's Blade,Erlang's Blade,16x,6,1800,15,12
+sc,Soul Edge,Soul Edge[Nightmare],32x,11,3200,4,4
+sc,Phlegathon,Phlegathon,16x,6,2000,15,12
+sc,Acheron,Acheron,16x,6,2000,15,12
+sc,Lethe,Lethe,16x,8,2200,15,9
+rs,Bronze Sword,Bronze Sword,16x,5,350,16,20
+rs,Iron Sword,Iron Sword,16x,6,500,14,16
+rs,White Sword,White Sword,16x,6,1600,17,13
+rs,Black Sword,Black Sword,16x,6,1600,17,13
+rs,Steel Sword,Steel Sword,16x,6,1600,8,15
+rs,Mithril Sword,Mithril Sword,16x,7,2600,26,10
+rs,Adamant Sword,Adamant Sword,16x,8,3400,10,6
+rs,Rune Sword,Rune Sword,16x,9,4200,32,4
+rs,Dragon Sword,Dragon Sword,16x,10,5600,15,10
+rs,Bronze Battleaxe,Bronze Battleaxe,16x,5,350,16,20
+rs,Iron Battleaxe,Iron Battleaxe,16x,6,500,14,16
+rs,Steel Battleaxe,Steel Battleaxe,16x,6,1600,17,13
+rs,Black Battleaxe,Black Battleaxe,16x,6,1600,17,13
+rs,White Battleaxe,White Battleaxe,16x,6,1600,8,15
+rs,Mithril Battleaxe,Mithril Battleaxe,16x,7,2600,26,10
+rs,Adamant Battleaxe,Adamant Battleaxe,16x,8,3400,10,6
+rs,Rune Battleaxe,Rune Battleaxe,16x,9,4200,32,4
+rs,Dragon Battleaxe,Dragon Battleaxe,16x,10,5600,15,10
+rs,Bronze Scimitar,Bronze Scimitar,16x,6,350,16,20
+rs,Iron Scimitar,Iron Scimitar,16x,6,500,14,16
+rs,Black Scimitar,Black Scimitar,16x,6,1600,17,13
+rs,White Scimitar,White Scimitar,16x,6,1600,17,13
+rs,Steel Scimitar,Steel Scimitar,16x,6,1600,8,15
+rs,Mithril Scimitar,Mithril Scimitar,16x,7,2600,26,10
+rs,Adamant Scimitar,Adamant Scimitar,16x,8,3400,10,6
+rs,Rune Scimitar,Rune Scimitar,16x,9,4200,32,4
+rs,Dragon Scimitar,Dragon Scimitar,16x,10,5600,15,10
+rs,Bronze Warhammer,Bronze Warhammer,16x,7,2500,16,20
+rs,Iron Warhammer,Iron Warhammer,16x,6,500,14,16
+rs,Steel Warhammer,Steel Warhammer,16x,6,1600,17,13
+rs,Black Warhammer,Black Warhammer,16x,6,1600,17,13
+rs,White Warhammer,White Warhammer,16x,6,1600,8,15
+rs,Mithril Warhammer,Mithril Warhammer,16x,7,2600,26,10
+rs,Adamant Warhammer,Adamant Warhammer,16x,8,3400,10,6
+rs,Rune Warhammer,Rune Warhammer,16x,9,4200,32,4
+rs,Bronze Mace,Bronze Mace,16x,7,2500,16,20
+rs,Iron Mace,Iron Mace,16x,6,500,14,16
+rs,Steel Mace,Steel Mace,16x,6,1600,17,13
+rs,Black Mace,Black Mace,16x,6,1600,17,13
+rs,White Mace,White Mace,16x,6,1600,8,15
+rs,Mithril Mace,Mithril Mace,16x,7,2600,26,10
+rs,Adamant Mace,Adamant Mace,16x,8,3400,10,6
+rs,Rune Mace,Rune Mace,16x,9,4200,32,4
+rs,Granite Longsword,Granite Longsword,32x,10,2400,5,4
+rs,Granite Hammer,Granite Hammer,32x,10,2000,5,4
+rs,Granite Maul,Granite Maul,32x,11,2500,5,4
+rs,Elder Maul,Elder Maul,32x,12,3200,15,2
+rs,Toktz-xil-ak,Toktz-xil-ak,32x,9,3000,15,4
+rs,Wolfsbane,Wolfsbane,dagger,5,2500,15,16
+rs,Zamorak Godsword,Zamorak Godsword,32x_long,9,2800,18,8
+rs,Bandos Godsword,Bandos Godsword,32x_long,9,2801,18,8
+rs,Armadyl Godsword,Armadyl Godsword,32x_long,9,2802,18,8
+rs,Saradomin Godsword,Saradomin Godsword,32x_long,9,2803,18,8
+dmc,Red Queen,Red Queen,32x,7,2000,15,8
+dmc,Rebellion,Rebellion,16x,9,2000,15,8
+dmc,Yamato,Yamato,16x,8,2000,12,8

@@ -2,3 +2,5 @@
 build
 gradle
 run
+itemInfo_backup.js
+node_modules

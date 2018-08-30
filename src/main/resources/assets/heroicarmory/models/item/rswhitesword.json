@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "heroicarmory:items/rs/white_sword"
+    }
+}

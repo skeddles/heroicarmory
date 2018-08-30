@@ -1,0 +1,28 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "heroicarmory:items/lotr/sauron_mace"
+    },
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [ 18, 90, 0 ],
+			"translation": [ 0.00, 11.00, -6.00 ],
+			"scale": [ 2.00, 2.00, 1.00 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [ 288, 90, 0 ],
+			"translation": [ 0.00, 11.00, -5.25 ],
+			"scale": [ 2.00, 2.00, 1.00 ]
+		},
+		"firstperson_righthand": {
+			"rotation": [ 338, 98, 54 ],
+			"translation": [ 5.25, 11.00, -2.75 ],
+			"scale": [ 2.00, 2.00, 1.00 ]
+		},
+		"firstperson_lefthand": {
+			"rotation": [ 28, 262, 358 ],
+			"translation": [ 1.25, 9.75, 1.25 ],
+			"scale": [ 2.00, 2.00, 1.00 ]
+		}
+	}
+}

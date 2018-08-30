@@ -1,28 +1,148 @@
-#Lord of the Rings
-item.narsil.name=Narsil
-item.sauronMace.name=Sauron's Mace
-item.witchKingSword.name=Sword of the Witch King
-item.morgulBlade.name=Morgul-Blade
-item.gimliBattleAxe.name=Gimli's Battle Axe
-item.gimliLongAxe.name=Gimli's Long Axe
-item.sting.name=Sting
-#
-#Realm of the Mad God
-item.ravenheartSword.name=Ravenheart Sword
-item.dragonsoulSword.name=Dragonsoul Sword
-item.archonSword.name=Archon Sword
-item.skysplitterSword.name=Skysplitter Sword
-item.swordofAcclaim.name=Sword of Acclaim
-item.swordofSplendor.name=Sword of Splendor
-item.crystalSword.name=Crystal Sword
-item.ancientStoneSword.name=Ancient Stone Sword
-item.pirateKingCutlass.name=Pirate King's Cutlass
-item.demonBlade.name=Demon Blade
-item.swordoftheColossus.name=Sword of the Colossus
-item.swordoftheMadGod.name=Sword of the Mad God
-item.pixieEnchantedSword.name=Pixie-Enchanted Sword
-item.indomptable.name=Indomptable
-#
 #Creative Tab
 itemGroup.tabHeroicArmory=Heroic Armory
-
+#
+#lotr
+item.lotrGimliBattleAxe.name=Gimli's Battle Axe
+item.lotrGimliLongAxe.name=Gimli's Long Axe
+item.lotrMorgulBlade.name=Morgul Blade
+item.lotrSting.name=Sting
+item.lotrGlamdring.name=Glamdring
+item.lotrAnduril.name=Anduril
+item.lotrNarsil.name=Narsil
+item.lotrSauronMace.name=Sauron's Mace
+item.lotrWitchKingSword.name=Witch King's Sword
+#
+#loz
+item.lozMasterSword.name=Master Sword
+item.lozMasterSwordII.name=Master Sword II
+item.lozTemperedSword.name=Tempered Sword
+item.lozMasterSwordIII.name=Master Sword III
+item.lozGoldenSword.name=Golden Sword
+item.lozFlameblade.name=Flameblade
+item.lozDarknutSwordTp.name=Darknut Sword
+item.lozGhirahimSword.name=Ghirahim Sword
+item.lozFierceDietySword.name=Fierce Diety's Sword
+item.lozZeldaSword.name=Zelda's Sword
+item.lozBokoStick.name=Boko Stick
+item.lozCaneofByrna.name=Cane of Byrna
+item.lozMegatonHammer.name=Megaton Hammer
+item.lozKokiriSwordMm.name=Kokiri Sword
+item.lozKokiriSwordOoT.name=Kokiri Sword
+item.lozDemiseSword.name=Demise's Sword
+item.lozGiantKnife.name=Giant's Knife
+item.lozBiggoronSword.name=Biggoron's Sword
+item.lozPhantomGanonSword.name=Phantom Ganon's Sword
+item.lozUltimateSword.name=Ultimate Sword
+item.lozRoyalGuardSword.name=Royal Guard's Sword
+item.lozMagicSwordConcept.name=Magic Sword
+item.lozMagicSword.name=Magic Sword
+item.lozWhiteSword.name=White Sword
+item.lozWhiteSwordConcept.name=White Sword
+item.lozPicoriBlade.name=Picori Blade
+item.lozRazorSword.name=Razor Sword
+item.lozGreatFairySword.name=Great Fairy's Sword
+item.lozGoddessWhiteSword.name=Goddess White Sword
+item.lozGoddessSword.name=Goddess Sword
+item.lozGildedSword.name=Gilded Sword
+#
+#at
+item.atJakeSword.name=Jake's Sword
+item.atCrystalSword.name=Crystal Sword
+item.atNothung.name=Nothung
+item.atFinnSword.name=Finn Sword
+item.atSwordoftheDead.name=Sword of the Dead
+item.atWishStarSword.name=Wish Star Sword
+item.atFightKingSword.name=Fight King Sword
+item.atRootSword.name=Root Sword
+item.atScarlet.name=Scarlet
+item.atGrassSword.name=Grass Sword
+item.atDemonBloodSword.name=Demon Blood Sword
+#
+#ff
+item.ffTheMasamune.name=The Masamune
+item.ffBusterSword.name=Buster Sword
+#
+#rotmg
+item.rotmgSwordoftheColossus.name=Sword of the Colossus
+item.rotmgCrystalSword.name=Crystal Sword
+item.rotmgPixieEnchantedSword.name=Pixie-Enchanted Sword
+item.rotmgSwordOfAcclaim.name=Sword Of Acclaim
+item.rotmgDemonBlade.name=Demon Blade
+item.rotmgSwordoftheMadGod.name=Sword of the Mad God
+item.rotmgIndomptable.name=Indomptable
+item.rotmgPirateKingCutlass.name=Pirate King's Cutlass
+item.rotmgSwordofSplendor.name=Sword of Splendor
+item.rotmgSkysplitterSword.name=Skysplitter Sword
+item.rotmgArchonSword.name=Archon Sword
+item.rotmgAncientStoneSword.name=Ancient Stone Sword
+item.rotmgDragonsoulSword.name=Dragonsoul Sword
+item.rotmgRavenheartSword.name=Ravenheart Sword
+#
+#sc
+item.scFirangi.name=Firangi
+item.scCocytus.name=Cocytus
+item.scErlangBlade.name=Erlang's Blade
+item.scSoulEdgeNightmare.name=Soul Edge
+item.scPhlegathon.name=Phlegathon
+item.scAcheron.name=Acheron
+item.scLethe.name=Lethe
+#
+#rs
+item.rsBronzeSword.name=Bronze Sword
+item.rsIronSword.name=Iron Sword
+item.rsWhiteSword.name=White Sword
+item.rsBlackSword.name=Black Sword
+item.rsSteelSword.name=Steel Sword
+item.rsMithrilSword.name=Mithril Sword
+item.rsAdamantSword.name=Adamant Sword
+item.rsRuneSword.name=Rune Sword
+item.rsDragonSword.name=Dragon Sword
+item.rsBronzeBattleaxe.name=Bronze Battleaxe
+item.rsIronBattleaxe.name=Iron Battleaxe
+item.rsSteelBattleaxe.name=Steel Battleaxe
+item.rsBlackBattleaxe.name=Black Battleaxe
+item.rsWhiteBattleaxe.name=White Battleaxe
+item.rsMithrilBattleaxe.name=Mithril Battleaxe
+item.rsAdamantBattleaxe.name=Adamant Battleaxe
+item.rsRuneBattleaxe.name=Rune Battleaxe
+item.rsDragonBattleaxe.name=Dragon Battleaxe
+item.rsBronzeScimitar.name=Bronze Scimitar
+item.rsIronScimitar.name=Iron Scimitar
+item.rsBlackScimitar.name=Black Scimitar
+item.rsWhiteScimitar.name=White Scimitar
+item.rsSteelScimitar.name=Steel Scimitar
+item.rsMithrilScimitar.name=Mithril Scimitar
+item.rsAdamantScimitar.name=Adamant Scimitar
+item.rsRuneScimitar.name=Rune Scimitar
+item.rsDragonScimitar.name=Dragon Scimitar
+item.rsBronzeWarhammer.name=Bronze Warhammer
+item.rsIronWarhammer.name=Iron Warhammer
+item.rsSteelWarhammer.name=Steel Warhammer
+item.rsBlackWarhammer.name=Black Warhammer
+item.rsWhiteWarhammer.name=White Warhammer
+item.rsMithrilWarhammer.name=Mithril Warhammer
+item.rsAdamantWarhammer.name=Adamant Warhammer
+item.rsRuneWarhammer.name=Rune Warhammer
+item.rsBronzeMace.name=Bronze Mace
+item.rsIronMace.name=Iron Mace
+item.rsSteelMace.name=Steel Mace
+item.rsBlackMace.name=Black Mace
+item.rsWhiteMace.name=White Mace
+item.rsMithrilMace.name=Mithril Mace
+item.rsAdamantMace.name=Adamant Mace
+item.rsRuneMace.name=Rune Mace
+item.rsGraniteLongsword.name=Granite Longsword
+item.rsGraniteHammer.name=Granite Hammer
+item.rsGraniteMaul.name=Granite Maul
+item.rsElderMaul.name=Elder Maul
+item.rsToktzxilak.name=Toktz-xil-ak
+item.rsWolfsbane.name=Wolfsbane
+item.rsZamorakGodsword.name=Zamorak Godsword
+item.rsBandosGodsword.name=Bandos Godsword
+item.rsArmadylGodsword.name=Armadyl Godsword
+item.rsSaradominGodsword.name=Saradomin Godsword
+#
+#dmc
+item.dmcRedQueen.name=Red Queen
+item.dmcRebellion.name=Rebellion
+item.dmcYamato.name=Yamato
