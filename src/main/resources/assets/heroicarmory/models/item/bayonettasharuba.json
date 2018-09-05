@@ -1,0 +1,33 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "heroicarmory:items/bayonetta/sharuba"
+    },
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [ 18, 90, 0 ],
+			"translation": [ 0.00, 11.75, -8.00 ],
+			"scale": [ 2.00, 2.00, 1.00 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [ 18, -90, 0 ],
+			"translation": [ 0.00, 11.75, -8.00 ],
+			"scale": [ 2.00, 2.00, 1.00 ]
+		},
+		"firstperson_righthand": {
+			"rotation": [ 148, 70, 226 ],
+			"translation": [ 4.75, 12.75, -6.75 ],
+			"scale": [ 2.00, 2.00, 1.00 ]
+		},
+		"firstperson_lefthand": {
+			"rotation": [ 148, 256, 132 ],
+			"translation": [ 4.75, 12.75, -6.75 ],
+			"scale": [ 2.00, 2.00, 1.00 ]
+		},
+		"gui": {
+			"rotation": [ 0, 0, 0 ],
+			"translation": [ 1.8461538461538467, 1.8461538461538467, 0.75 ],
+			"scale": [ 1.2307692307692308, 1.2307692307692308, 1.00 ]
+		}
+	}
+}

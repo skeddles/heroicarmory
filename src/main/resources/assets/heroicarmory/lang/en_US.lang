@@ -44,6 +44,8 @@ item.lozGreatFairySword.name=Great Fairy's Sword
 item.lozGoddessWhiteSword.name=Goddess White Sword
 item.lozGoddessSword.name=Goddess Sword
 item.lozGildedSword.name=Gilded Sword
+item.lozSpikedBokoClub.name=Spiked Boko Club
+item.lozBokoClub.name=Boko Club
 #
 #at
 item.atJakeSword.name=Jake's Sword
@@ -86,6 +88,28 @@ item.scSoulEdgeNightmare.name=Soul Edge
 item.scPhlegathon.name=Phlegathon
 item.scAcheron.name=Acheron
 item.scLethe.name=Lethe
+item.scQueenGuard.name=Queen's Guard
+item.scHolyAntler.name=Holy Antler
+item.scEpee.name=Epee
+item.scWarHammer.name=War Hammer
+item.scKalutues.name=Kalutues
+item.scEstoc.name=Estoc
+item.scFlambert2P.name=Flambert
+item.scReiterpallasch.name=Reiterpallasch
+item.scFlambert.name=Flambert
+item.scBlueCrystalRod.name=Blue Crystal Rod
+item.scFireBlade.name=Fire Blade
+item.scXiSword.name=Xi Sword
+item.scOmegaSword2P.name=Omega Sword
+item.scOmegaSword.name=Omega Sword
+item.scOrichalcum.name=Orichalcum
+item.scStiletto.name=Stiletto
+item.scRequiem.name=Requiem
+item.scFaust.name=Faust
+item.scFlamberge.name=Flamberge
+item.scSteelPaddle.name=Steel Paddle
+item.scGlam.name=Glam
+item.scGreatBlade.name=Great Blade
 #
 #rs
 item.rsBronzeSword.name=Bronze Sword
@@ -141,8 +165,48 @@ item.rsZamorakGodsword.name=Zamorak Godsword
 item.rsBandosGodsword.name=Bandos Godsword
 item.rsArmadylGodsword.name=Armadyl Godsword
 item.rsSaradominGodsword.name=Saradomin Godsword
+item.rsBarrelchestAnchor.name=Barrelchest Anchor
 #
 #dmc
 item.dmcRedQueen.name=Red Queen
 item.dmcRebellion.name=Rebellion
 item.dmcYamato.name=Yamato
+#
+#pkmn
+item.pkmnHonedgeShiny.name=Honedge
+item.pkmnHonedge.name=Honedge
+#
+#kirby
+item.kirbyGalaxia.name=Galaxia
+item.kirbyKirbyUltraSword.name=Kirby's Ultra Sword
+item.kirbyKirbySword.name=Kirby's Sword
+#
+#fe
+item.feChromFalchion.name=Chrom's Falchion
+item.feFalchion.name=Falchion
+#
+#kh
+item.khKeyblade.name=Keyblade
+#
+#bleach
+item.bleachZabimaru.name=Zabimaru
+item.bleachZangestsu.name=Zangestsu
+#
+#ds
+item.dsGreatswordofArtorias.name=Greatsword of Artorias
+item.dsGreatLordGreatsword.name=Great Lord Greatsword
+item.dsAstoraGreatsword.name=Astora Greatsword
+item.dsZweilhander.name=Zweilhander
+#
+#myth
+item.mythDeathScythe.name=Death's Scythe
+item.mythTheDevilPitchfork.name=The Devil's Pitchfork
+#
+#bayonetta
+item.bayonettaSharuba.name=Sharuba
+#
+#gow
+item.gowLeviathanUpgraded.name=Leviathan
+item.gowLeviathan.name=Leviathan
+item.gowBladeofOlympus.name=Blade of Olympus
+item.gowBladeofChaos.name=Blade of Chaos

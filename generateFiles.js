@@ -222,7 +222,11 @@ function processDocLayers (layerList) {
 				switch (weaponInfo.model) {
 					case "32x":
 					case "32x_long":
+					case "32x_longer":
 					case "wishstar":
+					case "scythe":
+					case "keyblade":
+					case "honedge":
 						//calculate scale
 						const scale = res / Math.max(weapon.width, weapon.height);
                         modelCode = modelCode.replace(/{{scale}}/g, scale);

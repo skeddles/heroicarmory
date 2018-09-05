@@ -18,14 +18,14 @@ loz,Darknut Sword,Darknut Sword[Tp],32x,9,2800,12,4
 loz,Ghirahim Sword,Ghirahim Sword,32x,7,3000,18,4
 loz,Fierce Diety's Sword,Fierce Diety's Sword,16x,8,1600,20,10
 loz,Zelda's Sword,Zelda's Sword,16x,6,2000,18,15
-loz,Boko Stick,Boko Stick,16x,4,150,20,18
+loz,Boko Stick,Boko Stick,16x,4,150,20,15
 loz,Cane of Byrna,Cane of Byrna,16x,5,800,32,12
-loz,Megaton Hammer,Megaton Hammer,32x,7,3200,15,5
+loz,Megaton Hammer,Megaton Hammer,32x,8,3200,15,5
 loz,Kokiri Sword,Kokiri Sword[Mm],16x,5,750,15,16
 loz,Kokiri Sword,Kokiri Sword[OoT],16x,5,750,15,16
 loz,Demise's Sword,Demise's Sword,32x,9,2000,8,8
-loz,Giant's Knife,Giant's Knife,32x,8,40,10,12
-loz,Biggoron's Sword,Biggoron's Sword,32x,8,8000,10,5
+loz,Giant's Knife,Giant's Knife,32x,9,40,10,12
+loz,Biggoron's Sword,Biggoron's Sword,32x,9,8000,10,5
 loz,Phantom Ganon's Sword,Phantom Ganon's Sword,32x,9,3000,15,5
 loz,Ultimate Sword,Ultimate Sword,16x,7,1000,15,12
 loz,Royal Guard's Sword,Royal Guard's Sword,16x,6,1500,15,15
@@ -39,6 +39,8 @@ loz,Great Fairy's Sword,Great Fairy's Sword,16x,8,2800,20,7
 loz,Goddess White Sword,Goddess White Sword,16x,7,1600,15,10
 loz,Goddess Sword,Goddess Sword,16x,7,1600,15,10
 loz,Gilded Sword,Gilded Sword,16x,7,2800,28,6
+loz,Spiked Boko Club,Spiked Boko Club,32x,7,900,15,15
+loz,Boko Club,Boko Club,32x,6,650,15,18
 at,Jake's Sword,Jake's Sword,16x,6,2000,10,12
 at,Crystal Sword,Crystal Sword,16x,6,3000,10,10
 at,Nothung,Nothung,16x,8,3000,10,2
@@ -73,6 +75,28 @@ sc,Soul Edge,Soul Edge[Nightmare],32x,11,3200,4,4
 sc,Phlegathon,Phlegathon,16x,6,2000,15,12
 sc,Acheron,Acheron,16x,6,2000,15,12
 sc,Lethe,Lethe,16x,8,2200,15,9
+sc,Queen's Guard,Queen's Guard,16x_short,7,2000,15,10
+sc,Holy Antler,Holy Antler,16x_short,7,2000,15,10
+sc,Epee,Epee,16x_short,6,2000,15,10
+sc,War Hammer,War Hammer,32x_longer,8,1300,12,9
+sc,Kalutues,Kalutues,32x_longer,8,1200,8,9
+sc,Estoc,Estoc,16x,6,2000,15,13
+sc,Flambert,Flambert[2P],32x,6,2000,15,13
+sc,Reiterpallasch,Reiterpallasch,16x,7,2000,15,10
+sc,Flambert,Flambert,32x,7,2000,15,10
+sc,Blue Crystal Rod,Blue Crystal Rod,16x,4,1800,30,10
+sc,Fire Blade,Fire Blade,16x,7,1500,13,10
+sc,Xi Sword,Xi Sword,16x,7,2000,15,10
+sc,Omega Sword,Omega Sword[2P],16x,7,2000,15,10
+sc,Omega Sword,Omega Sword,16x,7,2000,15,10
+sc,Orichalcum,Orichalcum,16x,8,2000,19,8
+sc,Stiletto,Stiletto,16x,8,1600,15,9
+sc,Requiem,Requiem,32x,8,2200,15,8
+sc,Faust,Faust,32x,8,2200,15,8
+sc,Flamberge,Flamberge,32x,9,2000,15,7
+sc,Steel Paddle,Steel Paddle,32x,8,800,8,12
+sc,Glam,Glam,32x,8,2000,15,8
+sc,Great Blade,Great Blade,32x,9,2000,15,8
 rs,Bronze Sword,Bronze Sword,16x,5,350,16,20
 rs,Iron Sword,Iron Sword,16x,6,500,14,16
 rs,White Sword,White Sword,16x,6,1600,17,13
@@ -81,7 +105,7 @@ rs,Steel Sword,Steel Sword,16x,6,1600,8,15
 rs,Mithril Sword,Mithril Sword,16x,7,2600,26,10
 rs,Adamant Sword,Adamant Sword,16x,8,3400,10,6
 rs,Rune Sword,Rune Sword,16x,9,4200,32,4
-rs,Dragon Sword,Dragon Sword,16x,10,5600,15,10
+rs,Dragon Sword,Dragon Sword,16x,10,5600,15,2
 rs,Bronze Battleaxe,Bronze Battleaxe,16x,5,350,16,20
 rs,Iron Battleaxe,Iron Battleaxe,16x,6,500,14,16
 rs,Steel Battleaxe,Steel Battleaxe,16x,6,1600,17,13
@@ -90,7 +114,7 @@ rs,White Battleaxe,White Battleaxe,16x,6,1600,8,15
 rs,Mithril Battleaxe,Mithril Battleaxe,16x,7,2600,26,10
 rs,Adamant Battleaxe,Adamant Battleaxe,16x,8,3400,10,6
 rs,Rune Battleaxe,Rune Battleaxe,16x,9,4200,32,4
-rs,Dragon Battleaxe,Dragon Battleaxe,16x,10,5600,15,10
+rs,Dragon Battleaxe,Dragon Battleaxe,16x,10,5600,15,2
 rs,Bronze Scimitar,Bronze Scimitar,16x,6,350,16,20
 rs,Iron Scimitar,Iron Scimitar,16x,6,500,14,16
 rs,Black Scimitar,Black Scimitar,16x,6,1600,17,13
@@ -99,7 +123,7 @@ rs,Steel Scimitar,Steel Scimitar,16x,6,1600,8,15
 rs,Mithril Scimitar,Mithril Scimitar,16x,7,2600,26,10
 rs,Adamant Scimitar,Adamant Scimitar,16x,8,3400,10,6
 rs,Rune Scimitar,Rune Scimitar,16x,9,4200,32,4
-rs,Dragon Scimitar,Dragon Scimitar,16x,10,5600,15,10
+rs,Dragon Scimitar,Dragon Scimitar,16x,10,5600,15,2
 rs,Bronze Warhammer,Bronze Warhammer,16x,7,2500,16,20
 rs,Iron Warhammer,Iron Warhammer,16x,6,500,14,16
 rs,Steel Warhammer,Steel Warhammer,16x,6,1600,17,13
@@ -108,7 +132,7 @@ rs,White Warhammer,White Warhammer,16x,6,1600,8,15
 rs,Mithril Warhammer,Mithril Warhammer,16x,7,2600,26,10
 rs,Adamant Warhammer,Adamant Warhammer,16x,8,3400,10,6
 rs,Rune Warhammer,Rune Warhammer,16x,9,4200,32,4
-rs,Bronze Mace,Bronze Mace,16x,7,2500,16,20
+rs,Bronze Mace,Bronze Mace,16x,7,2500,16,2
 rs,Iron Mace,Iron Mace,16x,6,500,14,16
 rs,Steel Mace,Steel Mace,16x,6,1600,17,13
 rs,Black Mace,Black Mace,16x,6,1600,17,13
@@ -122,10 +146,32 @@ rs,Granite Maul,Granite Maul,32x,11,2500,5,4
 rs,Elder Maul,Elder Maul,32x,12,3200,15,2
 rs,Toktz-xil-ak,Toktz-xil-ak,32x,9,3000,15,4
 rs,Wolfsbane,Wolfsbane,dagger,5,2500,15,16
-rs,Zamorak Godsword,Zamorak Godsword,32x_long,9,2800,18,8
-rs,Bandos Godsword,Bandos Godsword,32x_long,9,2801,18,8
-rs,Armadyl Godsword,Armadyl Godsword,32x_long,9,2802,18,8
-rs,Saradomin Godsword,Saradomin Godsword,32x_long,9,2803,18,8
+rs,Zamorak Godsword,Zamorak Godsword,32x_longer,12,2800,18,8
+rs,Bandos Godsword,Bandos Godsword,32x_longer,12,2800,18,8
+rs,Armadyl Godsword,Armadyl Godsword,32x_longer,12,2800,18,8
+rs,Saradomin Godsword,Saradomin Godsword,32x_longer,12,2800,18,8
+rs,Barrelchest Anchor,Barrelchest Anchor,32x_longer,7,2000,15,10
 dmc,Red Queen,Red Queen,32x,7,2000,15,8
-dmc,Rebellion,Rebellion,16x,9,2000,15,8
+dmc,Rebellion,Rebellion,16x,9,2000,15,5
 dmc,Yamato,Yamato,16x,8,2000,12,8
+pkmn,Honedge,Honedge[Shiny],honedge,7,1600,15,1
+pkmn,Honedge,Honedge,honedge,7,1600,15,11
+kirby,Galaxia,Galaxia,16x,9,3500,15,4
+kirby,Kirby's Ultra Sword,Kirby's Ultra Sword,16x,7,2000,15,8
+kirby,Kirby's Sword,Kirby's Sword,16x,6,1000,15,13
+fe,Chrom's Falchion,Chrom's Falchion,32x,8,1900,20,9
+fe,Falchion,Falchion,32x,8,1900,20,9
+kh,Keyblade,Keyblade,keyblade,7,1800,18,9
+bleach,Zabimaru,Zabimaru,32x_long,8,2000,10,8
+bleach,Zangestsu,Zangestsu,32x_long,8,2000,8,9
+ds,Greatsword of Artorias,Greatsword of Artorias,32x_longer,8,2200,15,8
+ds,Great Lord Greatsword,Great Lord Greatsword,32x_long,9,1200,10,6
+ds,Astora Greatsword,Astora Greatsword,32x_longer,8,1800,15,8
+ds,Zweilhander,Zweilhander,32x_long,9,2000,15,6
+myth,Death's Scythe,Death's Scythe,scythe,10,1600,2,1
+myth,The Devil's Pitchfork,The Devil's Pitchfork,32x_long,11,2200,2,1
+bayonetta,Sharuba,Sharuba,wishstar,7,2000,15,10
+gow,Leviathan,Leviathan[Upgraded],32x_longer,9,1800,15,5
+gow,Leviathan,Leviathan,32x_longer,7,1600,15,12
+gow,Blade of Olympus,Blade of Olympus,32x,10,4000,15,2
+gow,Blade of Chaos,Blade of Chaos,32x_longer,8,2000,15,8

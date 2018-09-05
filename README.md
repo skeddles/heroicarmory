@@ -17,7 +17,8 @@ As well as generating all of the models and textures.
 
 ##Credits
 
-Choonster - Helped troubleshoot implementing drop tables
-TheGreyGhost - Creating ItemTransformHelper which made it easy to make bigger weapons
-Alvoria - https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/resource-packs/resource-pack-discussion/1256350-animation-in-resource-packs-a-minecraft-1-6
-diesieben07 - Other forum help
+- Choonster - Helped troubleshoot implementing drop tables
+- suppergerrie2.com - Pretty good intro forge modding tutorials / examples
+- TheGreyGhost - Creating ItemTransformHelper which made it easy to make bigger weapons
+- Alvoria - https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/resource-packs/resource-pack-discussion/1256350-animation-in-resource-packs-a-minecraft-1-6
+- diesieben07 - Other forum help

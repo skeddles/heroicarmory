@@ -2,94 +2,161 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="161b2799-e191-420f-8a00-94a38c92e4e1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Sisters_of_Satan.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generateFiles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lootTableTemplate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/32x_long.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/dagger.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/wishstar.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/16x_short.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/32x_longer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/honedge.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/keyblade.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/scythe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changes.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HeroicArmory/Reference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HeroicArmory/Reference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generateFiles.js" beforeDir="false" afterPath="$PROJECT_DIR$/generateFiles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heroic_armory.psd" beforeDir="false" afterPath="$PROJECT_DIR$/heroic_armory.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heroic_armory_sprites.png" beforeDir="false" afterPath="$PROJECT_DIR$/heroic_armory_sprites.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itemData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/itemData.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/32x_long.json" beforeDir="false" afterPath="$PROJECT_DIR$/models/32x_long.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/wishstar.json" beforeDir="false" afterPath="$PROJECT_DIR$/models/wishstar.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/HeroicArmory/init/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HeroicArmory/init/ModItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/blockstates/mbe01_block_simple_registry_name.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/blockstates/mbe02_block_partial_registry_name.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/blockstates/mbe03_block_variants_registry_name.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/blockstates/mbe04_block_camouflage_registry_name.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/blockstates/mbe05_block_3d_web_statemapper_name.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/blockstates/mbe05_web_subblocks/mbe05_block_web_core_model.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/blockstates/mbe05_web_subblocks/mbe05_block_web_down_model.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/blockstates/mbe05_web_subblocks/mbe05_block_web_east_model.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/blockstates/mbe05_web_subblocks/mbe05_block_web_north_model.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/blockstates/mbe05_web_subblocks/mbe05_block_web_south_model.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/blockstates/mbe05_web_subblocks/mbe05_block_web_up_model.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/blockstates/mbe05_web_subblocks/mbe05_block_web_west_model.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/blockstates/mbe06_block_redstone_variable_source_registry_name.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/blockstates/mbe06b_block_redstone_target_registry_name.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/blockstates/mbe06c_block_redstone_meter_registry_name.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/blockstates/mbe06d_block_redstone_coloured_lamp_registry_name.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/blockstates/mbe08_creative_tab_block_registry_name.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/blockstates/mbe13_item_tools_block.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/blockstates/mbe20_tileentity_data_block_registry_name.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/blockstates/mbe21_tesr_block_registry_name.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/blockstates/mbe30_inventory_basic.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/blockstates/mbe31_block_inventory_furnace_registry_name.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/blockstates/mbe50_block_flame_emitter_registry_name.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/blockstates/test_block1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/blockstates/test_block2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/blockstates/test_numbered_part.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/blockstates/test_torch.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/lang/en_US.lang" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/lang/en_US.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/loot_tables/inject/village_blacksmith.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/loot_tables/loot.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/loot_tables/loot.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/ancientstonesword.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/archonsword.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/crystalsword.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/demonblade.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/dragonsoulsword.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/gimlibattleaxe.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/gimlilongaxe.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/indomptable.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/morgulblade.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/narsil.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/piratekingcutlass.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/pixieenchantedsword.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/ravenheartsword.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/sauronmace.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/skysplittersword.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/sting.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/swordofacclaim.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/swordofsplendor.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/swordofthecolossus.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/swordofthemadgod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/tutorialitem.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/witchkingsword.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/gimli_battle_axe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/gimli_long_axe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/morgul_blade.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/narsil.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/ancient_stone_sword.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/ancient_stone_sword.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/archon_sword.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/archon_sword.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/crystal_sword.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/crystal_sword.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/demon_blade.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/demon_blade.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/dragonsoul_sword.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/dragonsoul_sword.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/indomptable.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/indomptable.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/pirate_king_cutlass.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/pirate_king_cutlass.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/pixie_enchanted_sword.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/pixie_enchanted_sword.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/ravenheart_sword.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/ravenheart_sword.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/skysplitter_sword.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/skysplitter_sword.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/sword_of_acclaim.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/sword_of_acclaim.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/sword_of_splendor.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/sword_of_splendor.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/sword_of_the_colossus.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/sword_of_the_colossus.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/sword_of_the_mad_god.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/sword_of_the_mad_god.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/sauron_mace.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/sting.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/witch_king_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/atwishstarsword.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/atwishstarsword.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/rsarmadylgodsword.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/rsarmadylgodsword.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/rsbandosgodsword.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/rsbandosgodsword.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/rssaradomingodsword.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/rssaradomingodsword.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/rszamorakgodsword.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/rszamorakgodsword.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/at/crystal_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/at/demon_blood_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/at/fight_king_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/at/finn_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/at/grass_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/at/jake_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/at/nothung.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/at/root_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/at/scarlet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/at/sword_of_the_dead.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/at/wish_star_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/dmc/rebellion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/dmc/red_queen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/dmc/yamato.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/ff/buster_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/ff/the_masamune.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/lotr/anduril.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/lotr/anduril.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/lotr/gimli_battle_axe.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/lotr/gimli_battle_axe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/lotr/gimli_long_axe.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/lotr/gimli_long_axe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/lotr/glamdring.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/lotr/glamdring.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/lotr/morgul_blade.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/lotr/morgul_blade.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/lotr/narsil.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/lotr/narsil.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/lotr/sauron_mace.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/lotr/sting.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/lotr/sting.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/lotr/witch_king_sword.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/lotr/witch_king_sword.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/biggoron_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/boko_stick.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/cane_of_byrna.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/darknut_sword_tp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/demise_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/fierce_diety_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/flameblade.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/ghirahim_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/giant_knife.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/gilded_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/goddess_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/goddess_white_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/golden_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/great_fairy_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/kokiri_sword_mm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/kokiri_sword_oot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/magic_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/magic_sword_concept.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/master_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/master_sword_ii.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/master_sword_iii.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/megaton_hammer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/phantom_ganon_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/picori_blade.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/razor_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/royal_guard_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/tempered_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/ultimate_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/white_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/white_sword_concept.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/zelda_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/ancient_stone_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/archon_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/crystal_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/demon_blade.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/dragonsoul_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/indomptable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/pirate_king_cutlass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/pixie_enchanted_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/ravenheart_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/skysplitter_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/sword_of_acclaim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/sword_of_splendor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/sword_of_the_colossus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/sword_of_the_mad_god.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/adamant_battleaxe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/adamant_mace.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/adamant_scimitar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/adamant_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/adamant_warhammer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/armadyl_godsword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/bandos_godsword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/black_battleaxe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/black_mace.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/black_scimitar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/black_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/black_warhammer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/bronze_battleaxe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/bronze_mace.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/bronze_scimitar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/bronze_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/bronze_warhammer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/dragon_battleaxe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/dragon_scimitar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/dragon_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/elder_maul.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/granite_hammer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/granite_longsword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/granite_maul.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/iron_battleaxe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/iron_mace.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/iron_scimitar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/iron_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/iron_warhammer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/mithril_battleaxe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/mithril_mace.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/mithril_scimitar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/mithril_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/mithril_warhammer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/rune_battleaxe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/rune_mace.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/rune_scimitar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/rune_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/rune_warhammer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/saradomin_godsword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/steel_battleaxe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/steel_mace.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/steel_scimitar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/steel_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/steel_warhammer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/toktz_xil_ak.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/white_battleaxe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/white_mace.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/white_scimitar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/white_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/white_warhammer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/wolfsbane.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/zamorak_godsword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/sc/acheron.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/sc/cocytus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/sc/erlang_blade.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/sc/firangi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/sc/lethe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/sc/phlegathon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/sc/soul_edge_nightmare.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/sc/soul_edge_nightmare.png.mcmeta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mcmod.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mcmod.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texturePreview.htm" beforeDir="false" afterPath="$PROJECT_DIR$/texturePreview.htm" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -106,8 +173,8 @@
       <file leaf-file-name="generateFiles.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generateFiles.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="247" column="6" selection-start-line="247" selection-start-column="6" selection-end-line="247" selection-end-column="6" />
+            <state relative-caret-position="451">
+              <caret line="229" column="41" selection-start-line="229" selection-start-column="41" selection-end-line="229" selection-end-column="41" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -118,8 +185,8 @@
       <file leaf-file-name="mcmod.info" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mcmod.info">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="66" />
+            <state relative-caret-position="238">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -127,22 +194,17 @@
       <file leaf-file-name="en_US.lang" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/assets/heroicarmory/lang/en_US.lang">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="33" lean-forward="true" selection-end-line="148" />
+            <state relative-caret-position="-2229">
+              <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HeroicArmory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/HeroicArmory/HeroicArmory.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="ModItemsTemplate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ModItemsTemplate.java">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+            <state relative-caret-position="204">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -204,14 +266,20 @@
         <option value="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/loot_tables/loot.json" />
         <option value="$PROJECT_DIR$/ModItemsTemplate.java" />
         <option value="$PROJECT_DIR$/models/32x.json" />
-        <option value="$PROJECT_DIR$/models/32x_long.json" />
         <option value="$PROJECT_DIR$/src/main/java/HeroicArmory/Reference.java" />
-        <option value="$PROJECT_DIR$/models/wishstar.json" />
-        <option value="$PROJECT_DIR$/generateFiles.js" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/models/dagger.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/models/32x_long.json" />
+        <option value="$PROJECT_DIR$/models/32x_longer.json" />
+        <option value="$PROJECT_DIR$/models/wishstar.json" />
+        <option value="$PROJECT_DIR$/models/scythe.json" />
+        <option value="$PROJECT_DIR$/models/keyblade.json" />
+        <option value="$PROJECT_DIR$/generateFiles.js" />
+        <option value="$PROJECT_DIR$/models/honedge.json" />
+        <option value="$PROJECT_DIR$/models/16x_short.json" />
         <option value="$PROJECT_DIR$/src/main/resources/mcmod.info" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -231,7 +299,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -245,24 +313,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="HeroicTreasure" type="b2602c69:ProjectViewProjectNode" />
               <item name="HeroicTreasure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HeroicTreasure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HeroicTreasure" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HeroicTreasure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HeroicTreasure" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HeroicTreasure" type="b2602c69:ProjectViewProjectNode" />
@@ -313,6 +369,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -351,22 +408,23 @@
       <option name="presentableId" value="Default" />
       <updated>1535227697213</updated>
       <workItem from="1535227698588" duration="25849000" />
-      <workItem from="1535309747362" duration="52840000" />
+      <workItem from="1535309747362" duration="54283000" />
+      <workItem from="1535596947420" duration="16000" />
+      <workItem from="1536086933907" duration="8532000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78689000" />
+    <option name="totallyTimeSpent" value="88680000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17135416" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
@@ -380,6 +438,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,13 +448,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/models/ravenheartsword.json" />
-    <entry file="file://$PROJECT_DIR$/models/skysplittersword.json" />
-    <entry file="file://$PROJECT_DIR$/models/sting.json" />
-    <entry file="file://$PROJECT_DIR$/models/swordofacclaim.json" />
-    <entry file="file://$PROJECT_DIR$/models/swordofsplendor.json" />
-    <entry file="file://$PROJECT_DIR$/models/swordofthecolossus.json" />
-    <entry file="file://$PROJECT_DIR$/models/swordofthemadgod.json" />
     <entry file="file://$PROJECT_DIR$/models/witchkingsword.json" />
     <entry file="file://$PROJECT_DIR$/models/tutorialitem.json" />
     <entry file="file://$PROJECT_DIR$/models/16x.json">
@@ -420,11 +472,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/scarlet.json" />
-    <entry file="file://$PROJECT_DIR$/ModItemsTemplate2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5898" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ModItemsTemplate2.java" />
     <entry file="file://$PROJECT_DIR$/languageTemplate.lang">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -432,32 +480,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1819">
-          <caret line="107" column="45" selection-start-line="107" selection-start-column="45" selection-end-line="107" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/gen.js" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/lozbiggoronsword.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/test28.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/test24.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/texture-preview.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/test28.json" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/test24.json" />
+    <entry file="file://$PROJECT_DIR$/texture-preview.htm" />
     <entry file="file://$PROJECT_DIR$/models/48x.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -479,22 +508,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-          <folding>
-            <element signature="e#425#535#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/rsgranitelongsword.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/loot.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/loot.json" />
     <entry file="file://$PROJECT_DIR$/texturePreviewTemplate.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -502,15 +522,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/generateFiles_old.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/generateFiles_old.js" />
     <entry file="file://$PROJECT_DIR$/models/bustersword.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -518,40 +530,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iteminfothing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="366" selection-start-line="366" selection-end-line="366" />
-          <folding>
-            <element signature="e#47#1993#0" />
-            <element signature="e#2004#8951#0" />
-            <element signature="e#8961#11364#0" />
-            <element signature="e#11374#11823#0" />
-            <element signature="e#11836#15070#0" />
-            <element signature="e#15080#16555#0" />
-            <element signature="e#16565#28312#0" />
-            <element signature="e#28323#28947#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itemInfo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generateFiles_fuckup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="222" selection-start-line="222" selection-end-line="223" selection-end-column="70" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/iteminfothing.js" />
+    <entry file="file://$PROJECT_DIR$/itemInfo.js" />
+    <entry file="file://$PROJECT_DIR$/generateFiles_fuckup.js" />
     <entry file="file://$PROJECT_DIR$/lootTableTemplate.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -566,16 +547,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/wishstar.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/changes.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/changes.txt" />
     <entry file="file://$PROJECT_DIR$/src/main/java/HeroicArmory/items/Sword.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -587,16 +559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1897">
           <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/32x.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -614,27 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run/logs/fml-client-latest.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="753">
-          <caret line="643" selection-start-line="643" selection-end-line="643" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/32x_long.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/HeroicArmory/Reference.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -642,37 +583,126 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HeroicArmory/HeroicArmory.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/ModItemsTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
+        <state relative-caret-position="1360">
           <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HeroicArmory/HeroicArmory.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/models/32x_longer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/32x_long.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/wishstar.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/scythe.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/keyblade.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/32x.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run/logs/fml-client-latest.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="644" selection-start-line="644" selection-end-line="644" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/16x_short.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/honedge.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/generateFiles.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="247" column="6" selection-start-line="247" selection-start-column="6" selection-end-line="247" selection-end-column="6" />
+        <state relative-caret-position="451">
+          <caret line="229" column="41" selection-start-line="229" selection-start-column="41" selection-end-line="229" selection-end-column="41" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mcmod.info">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="66" />
+        <state relative-caret-position="238">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/heroicarmory/lang/en_US.lang">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="33" lean-forward="true" selection-end-line="148" />
+        <state relative-caret-position="-2229">
+          <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
         </state>
       </provider>
     </entry>

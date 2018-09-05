@@ -81,6 +81,8 @@ public class ModItems {
 	static Item lozGoddessWhiteSword;
 	static Item lozGoddessSword;
 	static Item lozGildedSword;
+	static Item lozSpikedBokoClub;
+	static Item lozBokoClub;
 
 	//at
 	static Item atJakeSword;
@@ -123,6 +125,28 @@ public class ModItems {
 	static Item scPhlegathon;
 	static Item scAcheron;
 	static Item scLethe;
+	static Item scQueenGuard;
+	static Item scHolyAntler;
+	static Item scEpee;
+	static Item scWarHammer;
+	static Item scKalutues;
+	static Item scEstoc;
+	static Item scFlambert2P;
+	static Item scReiterpallasch;
+	static Item scFlambert;
+	static Item scBlueCrystalRod;
+	static Item scFireBlade;
+	static Item scXiSword;
+	static Item scOmegaSword2P;
+	static Item scOmegaSword;
+	static Item scOrichalcum;
+	static Item scStiletto;
+	static Item scRequiem;
+	static Item scFaust;
+	static Item scFlamberge;
+	static Item scSteelPaddle;
+	static Item scGlam;
+	static Item scGreatBlade;
 
 	//rs
 	static Item rsBronzeSword;
@@ -178,11 +202,51 @@ public class ModItems {
 	static Item rsBandosGodsword;
 	static Item rsArmadylGodsword;
 	static Item rsSaradominGodsword;
+	static Item rsBarrelchestAnchor;
 
 	//dmc
 	static Item dmcRedQueen;
 	static Item dmcRebellion;
 	static Item dmcYamato;
+
+	//pkmn
+	static Item pkmnHonedgeShiny;
+	static Item pkmnHonedge;
+
+	//kirby
+	static Item kirbyGalaxia;
+	static Item kirbyKirbyUltraSword;
+	static Item kirbyKirbySword;
+
+	//fe
+	static Item feChromFalchion;
+	static Item feFalchion;
+
+	//kh
+	static Item khKeyblade;
+
+	//bleach
+	static Item bleachZabimaru;
+	static Item bleachZangestsu;
+
+	//ds
+	static Item dsGreatswordofArtorias;
+	static Item dsGreatLordGreatsword;
+	static Item dsAstoraGreatsword;
+	static Item dsZweilhander;
+
+	//myth
+	static Item mythDeathScythe;
+	static Item mythTheDevilPitchfork;
+
+	//bayonetta
+	static Item bayonettaSharuba;
+
+	//gow
+	static Item gowLeviathanUpgraded;
+	static Item gowLeviathan;
+	static Item gowBladeofOlympus;
+	static Item gowBladeofChaos;
 
 
     //MATERIAL VARIABLES================================================================================================
@@ -211,12 +275,12 @@ public class ModItems {
 	public static final ToolMaterial LOZZELDASWORDMATERIAL = EnumHelper.addToolMaterial("LOZZELDASWORDMATERIAL", 1, 2000, 1.0f, 2.0f, 18);
 	public static final ToolMaterial LOZBOKOSTICKMATERIAL = EnumHelper.addToolMaterial("LOZBOKOSTICKMATERIAL", 1, 150, 1.0f, 0.0f, 20);
 	public static final ToolMaterial LOZCANEOFBYRNAMATERIAL = EnumHelper.addToolMaterial("LOZCANEOFBYRNAMATERIAL", 1, 800, 1.0f, 1.0f, 32);
-	public static final ToolMaterial LOZMEGATONHAMMERMATERIAL = EnumHelper.addToolMaterial("LOZMEGATONHAMMERMATERIAL", 1, 3200, 1.0f, 3.0f, 15);
+	public static final ToolMaterial LOZMEGATONHAMMERMATERIAL = EnumHelper.addToolMaterial("LOZMEGATONHAMMERMATERIAL", 1, 3200, 1.0f, 4.0f, 15);
 	public static final ToolMaterial LOZKOKIRISWORDMMMATERIAL = EnumHelper.addToolMaterial("LOZKOKIRISWORDMMMATERIAL", 1, 750, 1.0f, 1.0f, 15);
 	public static final ToolMaterial LOZKOKIRISWORDOOTMATERIAL = EnumHelper.addToolMaterial("LOZKOKIRISWORDOOTMATERIAL", 1, 750, 1.0f, 1.0f, 15);
 	public static final ToolMaterial LOZDEMISESWORDMATERIAL = EnumHelper.addToolMaterial("LOZDEMISESWORDMATERIAL", 1, 2000, 1.0f, 5.0f, 8);
-	public static final ToolMaterial LOZGIANTKNIFEMATERIAL = EnumHelper.addToolMaterial("LOZGIANTKNIFEMATERIAL", 1, 40, 1.0f, 4.0f, 10);
-	public static final ToolMaterial LOZBIGGORONSWORDMATERIAL = EnumHelper.addToolMaterial("LOZBIGGORONSWORDMATERIAL", 1, 8000, 1.0f, 4.0f, 10);
+	public static final ToolMaterial LOZGIANTKNIFEMATERIAL = EnumHelper.addToolMaterial("LOZGIANTKNIFEMATERIAL", 1, 40, 1.0f, 5.0f, 10);
+	public static final ToolMaterial LOZBIGGORONSWORDMATERIAL = EnumHelper.addToolMaterial("LOZBIGGORONSWORDMATERIAL", 1, 8000, 1.0f, 5.0f, 10);
 	public static final ToolMaterial LOZPHANTOMGANONSWORDMATERIAL = EnumHelper.addToolMaterial("LOZPHANTOMGANONSWORDMATERIAL", 1, 3000, 1.0f, 5.0f, 15);
 	public static final ToolMaterial LOZULTIMATESWORDMATERIAL = EnumHelper.addToolMaterial("LOZULTIMATESWORDMATERIAL", 1, 1000, 1.0f, 3.0f, 15);
 	public static final ToolMaterial LOZROYALGUARDSWORDMATERIAL = EnumHelper.addToolMaterial("LOZROYALGUARDSWORDMATERIAL", 1, 1500, 1.0f, 2.0f, 15);
@@ -230,6 +294,8 @@ public class ModItems {
 	public static final ToolMaterial LOZGODDESSWHITESWORDMATERIAL = EnumHelper.addToolMaterial("LOZGODDESSWHITESWORDMATERIAL", 1, 1600, 1.0f, 3.0f, 15);
 	public static final ToolMaterial LOZGODDESSSWORDMATERIAL = EnumHelper.addToolMaterial("LOZGODDESSSWORDMATERIAL", 1, 1600, 1.0f, 3.0f, 15);
 	public static final ToolMaterial LOZGILDEDSWORDMATERIAL = EnumHelper.addToolMaterial("LOZGILDEDSWORDMATERIAL", 1, 2800, 1.0f, 3.0f, 28);
+	public static final ToolMaterial LOZSPIKEDBOKOCLUBMATERIAL = EnumHelper.addToolMaterial("LOZSPIKEDBOKOCLUBMATERIAL", 1, 900, 1.0f, 3.0f, 15);
+	public static final ToolMaterial LOZBOKOCLUBMATERIAL = EnumHelper.addToolMaterial("LOZBOKOCLUBMATERIAL", 1, 650, 1.0f, 2.0f, 15);
 
 	//at
 	public static final ToolMaterial ATJAKESWORDMATERIAL = EnumHelper.addToolMaterial("ATJAKESWORDMATERIAL", 1, 2000, 1.0f, 2.0f, 10);
@@ -272,6 +338,28 @@ public class ModItems {
 	public static final ToolMaterial SCPHLEGATHONMATERIAL = EnumHelper.addToolMaterial("SCPHLEGATHONMATERIAL", 1, 2000, 1.0f, 2.0f, 15);
 	public static final ToolMaterial SCACHERONMATERIAL = EnumHelper.addToolMaterial("SCACHERONMATERIAL", 1, 2000, 1.0f, 2.0f, 15);
 	public static final ToolMaterial SCLETHEMATERIAL = EnumHelper.addToolMaterial("SCLETHEMATERIAL", 1, 2200, 1.0f, 4.0f, 15);
+	public static final ToolMaterial SCQUEENGUARDMATERIAL = EnumHelper.addToolMaterial("SCQUEENGUARDMATERIAL", 1, 2000, 1.0f, 3.0f, 15);
+	public static final ToolMaterial SCHOLYANTLERMATERIAL = EnumHelper.addToolMaterial("SCHOLYANTLERMATERIAL", 1, 2000, 1.0f, 3.0f, 15);
+	public static final ToolMaterial SCEPEEMATERIAL = EnumHelper.addToolMaterial("SCEPEEMATERIAL", 1, 2000, 1.0f, 2.0f, 15);
+	public static final ToolMaterial SCWARHAMMERMATERIAL = EnumHelper.addToolMaterial("SCWARHAMMERMATERIAL", 1, 1300, 1.0f, 4.0f, 12);
+	public static final ToolMaterial SCKALUTUESMATERIAL = EnumHelper.addToolMaterial("SCKALUTUESMATERIAL", 1, 1200, 1.0f, 4.0f, 8);
+	public static final ToolMaterial SCESTOCMATERIAL = EnumHelper.addToolMaterial("SCESTOCMATERIAL", 1, 2000, 1.0f, 2.0f, 15);
+	public static final ToolMaterial SCFLAMBERT2PMATERIAL = EnumHelper.addToolMaterial("SCFLAMBERT2PMATERIAL", 1, 2000, 1.0f, 2.0f, 15);
+	public static final ToolMaterial SCREITERPALLASCHMATERIAL = EnumHelper.addToolMaterial("SCREITERPALLASCHMATERIAL", 1, 2000, 1.0f, 3.0f, 15);
+	public static final ToolMaterial SCFLAMBERTMATERIAL = EnumHelper.addToolMaterial("SCFLAMBERTMATERIAL", 1, 2000, 1.0f, 3.0f, 15);
+	public static final ToolMaterial SCBLUECRYSTALRODMATERIAL = EnumHelper.addToolMaterial("SCBLUECRYSTALRODMATERIAL", 1, 1800, 1.0f, 0.0f, 30);
+	public static final ToolMaterial SCFIREBLADEMATERIAL = EnumHelper.addToolMaterial("SCFIREBLADEMATERIAL", 1, 1500, 1.0f, 3.0f, 13);
+	public static final ToolMaterial SCXISWORDMATERIAL = EnumHelper.addToolMaterial("SCXISWORDMATERIAL", 1, 2000, 1.0f, 3.0f, 15);
+	public static final ToolMaterial SCOMEGASWORD2PMATERIAL = EnumHelper.addToolMaterial("SCOMEGASWORD2PMATERIAL", 1, 2000, 1.0f, 3.0f, 15);
+	public static final ToolMaterial SCOMEGASWORDMATERIAL = EnumHelper.addToolMaterial("SCOMEGASWORDMATERIAL", 1, 2000, 1.0f, 3.0f, 15);
+	public static final ToolMaterial SCORICHALCUMMATERIAL = EnumHelper.addToolMaterial("SCORICHALCUMMATERIAL", 1, 2000, 1.0f, 4.0f, 19);
+	public static final ToolMaterial SCSTILETTOMATERIAL = EnumHelper.addToolMaterial("SCSTILETTOMATERIAL", 1, 1600, 1.0f, 4.0f, 15);
+	public static final ToolMaterial SCREQUIEMMATERIAL = EnumHelper.addToolMaterial("SCREQUIEMMATERIAL", 1, 2200, 1.0f, 4.0f, 15);
+	public static final ToolMaterial SCFAUSTMATERIAL = EnumHelper.addToolMaterial("SCFAUSTMATERIAL", 1, 2200, 1.0f, 4.0f, 15);
+	public static final ToolMaterial SCFLAMBERGEMATERIAL = EnumHelper.addToolMaterial("SCFLAMBERGEMATERIAL", 1, 2000, 1.0f, 5.0f, 15);
+	public static final ToolMaterial SCSTEELPADDLEMATERIAL = EnumHelper.addToolMaterial("SCSTEELPADDLEMATERIAL", 1, 800, 1.0f, 4.0f, 8);
+	public static final ToolMaterial SCGLAMMATERIAL = EnumHelper.addToolMaterial("SCGLAMMATERIAL", 1, 2000, 1.0f, 4.0f, 15);
+	public static final ToolMaterial SCGREATBLADEMATERIAL = EnumHelper.addToolMaterial("SCGREATBLADEMATERIAL", 1, 2000, 1.0f, 5.0f, 15);
 
 	//rs
 	public static final ToolMaterial RSBRONZESWORDMATERIAL = EnumHelper.addToolMaterial("RSBRONZESWORDMATERIAL", 1, 350, 1.0f, 1.0f, 16);
@@ -323,15 +411,55 @@ public class ModItems {
 	public static final ToolMaterial RSELDERMAULMATERIAL = EnumHelper.addToolMaterial("RSELDERMAULMATERIAL", 1, 3200, 1.0f, 8.0f, 15);
 	public static final ToolMaterial RSTOKTZXILAKMATERIAL = EnumHelper.addToolMaterial("RSTOKTZXILAKMATERIAL", 1, 3000, 1.0f, 5.0f, 15);
 	public static final ToolMaterial RSWOLFSBANEMATERIAL = EnumHelper.addToolMaterial("RSWOLFSBANEMATERIAL", 1, 2500, 1.0f, 1.0f, 15);
-	public static final ToolMaterial RSZAMORAKGODSWORDMATERIAL = EnumHelper.addToolMaterial("RSZAMORAKGODSWORDMATERIAL", 1, 2800, 1.0f, 5.0f, 18);
-	public static final ToolMaterial RSBANDOSGODSWORDMATERIAL = EnumHelper.addToolMaterial("RSBANDOSGODSWORDMATERIAL", 1, 2801, 1.0f, 5.0f, 18);
-	public static final ToolMaterial RSARMADYLGODSWORDMATERIAL = EnumHelper.addToolMaterial("RSARMADYLGODSWORDMATERIAL", 1, 2802, 1.0f, 5.0f, 18);
-	public static final ToolMaterial RSSARADOMINGODSWORDMATERIAL = EnumHelper.addToolMaterial("RSSARADOMINGODSWORDMATERIAL", 1, 2803, 1.0f, 5.0f, 18);
+	public static final ToolMaterial RSZAMORAKGODSWORDMATERIAL = EnumHelper.addToolMaterial("RSZAMORAKGODSWORDMATERIAL", 1, 2800, 1.0f, 8.0f, 18);
+	public static final ToolMaterial RSBANDOSGODSWORDMATERIAL = EnumHelper.addToolMaterial("RSBANDOSGODSWORDMATERIAL", 1, 2800, 1.0f, 8.0f, 18);
+	public static final ToolMaterial RSARMADYLGODSWORDMATERIAL = EnumHelper.addToolMaterial("RSARMADYLGODSWORDMATERIAL", 1, 2800, 1.0f, 8.0f, 18);
+	public static final ToolMaterial RSSARADOMINGODSWORDMATERIAL = EnumHelper.addToolMaterial("RSSARADOMINGODSWORDMATERIAL", 1, 2800, 1.0f, 8.0f, 18);
+	public static final ToolMaterial RSBARRELCHESTANCHORMATERIAL = EnumHelper.addToolMaterial("RSBARRELCHESTANCHORMATERIAL", 1, 2000, 1.0f, 3.0f, 15);
 
 	//dmc
 	public static final ToolMaterial DMCREDQUEENMATERIAL = EnumHelper.addToolMaterial("DMCREDQUEENMATERIAL", 1, 2000, 1.0f, 3.0f, 15);
 	public static final ToolMaterial DMCREBELLIONMATERIAL = EnumHelper.addToolMaterial("DMCREBELLIONMATERIAL", 1, 2000, 1.0f, 5.0f, 15);
 	public static final ToolMaterial DMCYAMATOMATERIAL = EnumHelper.addToolMaterial("DMCYAMATOMATERIAL", 1, 2000, 1.0f, 4.0f, 12);
+
+	//pkmn
+	public static final ToolMaterial PKMNHONEDGESHINYMATERIAL = EnumHelper.addToolMaterial("PKMNHONEDGESHINYMATERIAL", 1, 1600, 1.0f, 3.0f, 15);
+	public static final ToolMaterial PKMNHONEDGEMATERIAL = EnumHelper.addToolMaterial("PKMNHONEDGEMATERIAL", 1, 1600, 1.0f, 3.0f, 15);
+
+	//kirby
+	public static final ToolMaterial KIRBYGALAXIAMATERIAL = EnumHelper.addToolMaterial("KIRBYGALAXIAMATERIAL", 1, 3500, 1.0f, 5.0f, 15);
+	public static final ToolMaterial KIRBYKIRBYULTRASWORDMATERIAL = EnumHelper.addToolMaterial("KIRBYKIRBYULTRASWORDMATERIAL", 1, 2000, 1.0f, 3.0f, 15);
+	public static final ToolMaterial KIRBYKIRBYSWORDMATERIAL = EnumHelper.addToolMaterial("KIRBYKIRBYSWORDMATERIAL", 1, 1000, 1.0f, 2.0f, 15);
+
+	//fe
+	public static final ToolMaterial FECHROMFALCHIONMATERIAL = EnumHelper.addToolMaterial("FECHROMFALCHIONMATERIAL", 1, 1900, 1.0f, 4.0f, 20);
+	public static final ToolMaterial FEFALCHIONMATERIAL = EnumHelper.addToolMaterial("FEFALCHIONMATERIAL", 1, 1900, 1.0f, 4.0f, 20);
+
+	//kh
+	public static final ToolMaterial KHKEYBLADEMATERIAL = EnumHelper.addToolMaterial("KHKEYBLADEMATERIAL", 1, 1800, 1.0f, 3.0f, 18);
+
+	//bleach
+	public static final ToolMaterial BLEACHZABIMARUMATERIAL = EnumHelper.addToolMaterial("BLEACHZABIMARUMATERIAL", 1, 2000, 1.0f, 4.0f, 10);
+	public static final ToolMaterial BLEACHZANGESTSUMATERIAL = EnumHelper.addToolMaterial("BLEACHZANGESTSUMATERIAL", 1, 2000, 1.0f, 4.0f, 8);
+
+	//ds
+	public static final ToolMaterial DSGREATSWORDOFARTORIASMATERIAL = EnumHelper.addToolMaterial("DSGREATSWORDOFARTORIASMATERIAL", 1, 2200, 1.0f, 4.0f, 15);
+	public static final ToolMaterial DSGREATLORDGREATSWORDMATERIAL = EnumHelper.addToolMaterial("DSGREATLORDGREATSWORDMATERIAL", 1, 1200, 1.0f, 5.0f, 10);
+	public static final ToolMaterial DSASTORAGREATSWORDMATERIAL = EnumHelper.addToolMaterial("DSASTORAGREATSWORDMATERIAL", 1, 1800, 1.0f, 4.0f, 15);
+	public static final ToolMaterial DSZWEILHANDERMATERIAL = EnumHelper.addToolMaterial("DSZWEILHANDERMATERIAL", 1, 2000, 1.0f, 5.0f, 15);
+
+	//myth
+	public static final ToolMaterial MYTHDEATHSCYTHEMATERIAL = EnumHelper.addToolMaterial("MYTHDEATHSCYTHEMATERIAL", 1, 1600, 1.0f, 6.0f, 2);
+	public static final ToolMaterial MYTHTHEDEVILPITCHFORKMATERIAL = EnumHelper.addToolMaterial("MYTHTHEDEVILPITCHFORKMATERIAL", 1, 2200, 1.0f, 7.0f, 2);
+
+	//bayonetta
+	public static final ToolMaterial BAYONETTASHARUBAMATERIAL = EnumHelper.addToolMaterial("BAYONETTASHARUBAMATERIAL", 1, 2000, 1.0f, 3.0f, 15);
+
+	//gow
+	public static final ToolMaterial GOWLEVIATHANUPGRADEDMATERIAL = EnumHelper.addToolMaterial("GOWLEVIATHANUPGRADEDMATERIAL", 1, 1800, 1.0f, 5.0f, 15);
+	public static final ToolMaterial GOWLEVIATHANMATERIAL = EnumHelper.addToolMaterial("GOWLEVIATHANMATERIAL", 1, 1600, 1.0f, 3.0f, 15);
+	public static final ToolMaterial GOWBLADEOFOLYMPUSMATERIAL = EnumHelper.addToolMaterial("GOWBLADEOFOLYMPUSMATERIAL", 1, 4000, 1.0f, 6.0f, 15);
+	public static final ToolMaterial GOWBLADEOFCHAOSMATERIAL = EnumHelper.addToolMaterial("GOWBLADEOFCHAOSMATERIAL", 1, 2000, 1.0f, 4.0f, 15);
 
 	
 	//creative tab
@@ -390,6 +518,8 @@ public class ModItems {
 		lozGoddessWhiteSword = new Sword("lozGoddessWhiteSword", LOZGODDESSWHITESWORDMATERIAL).setCreativeTab(tabHeroicArmory);
 		lozGoddessSword = new Sword("lozGoddessSword", LOZGODDESSSWORDMATERIAL).setCreativeTab(tabHeroicArmory);
 		lozGildedSword = new Sword("lozGildedSword", LOZGILDEDSWORDMATERIAL).setCreativeTab(tabHeroicArmory);
+		lozSpikedBokoClub = new Sword("lozSpikedBokoClub", LOZSPIKEDBOKOCLUBMATERIAL).setCreativeTab(tabHeroicArmory);
+		lozBokoClub = new Sword("lozBokoClub", LOZBOKOCLUBMATERIAL).setCreativeTab(tabHeroicArmory);
 
 		//at
 		atJakeSword = new Sword("atJakeSword", ATJAKESWORDMATERIAL).setCreativeTab(tabHeroicArmory);
@@ -432,6 +562,28 @@ public class ModItems {
 		scPhlegathon = new Sword("scPhlegathon", SCPHLEGATHONMATERIAL).setCreativeTab(tabHeroicArmory);
 		scAcheron = new Sword("scAcheron", SCACHERONMATERIAL).setCreativeTab(tabHeroicArmory);
 		scLethe = new Sword("scLethe", SCLETHEMATERIAL).setCreativeTab(tabHeroicArmory);
+		scQueenGuard = new Sword("scQueenGuard", SCQUEENGUARDMATERIAL).setCreativeTab(tabHeroicArmory);
+		scHolyAntler = new Sword("scHolyAntler", SCHOLYANTLERMATERIAL).setCreativeTab(tabHeroicArmory);
+		scEpee = new Sword("scEpee", SCEPEEMATERIAL).setCreativeTab(tabHeroicArmory);
+		scWarHammer = new Sword("scWarHammer", SCWARHAMMERMATERIAL).setCreativeTab(tabHeroicArmory);
+		scKalutues = new Sword("scKalutues", SCKALUTUESMATERIAL).setCreativeTab(tabHeroicArmory);
+		scEstoc = new Sword("scEstoc", SCESTOCMATERIAL).setCreativeTab(tabHeroicArmory);
+		scFlambert2P = new Sword("scFlambert2P", SCFLAMBERT2PMATERIAL).setCreativeTab(tabHeroicArmory);
+		scReiterpallasch = new Sword("scReiterpallasch", SCREITERPALLASCHMATERIAL).setCreativeTab(tabHeroicArmory);
+		scFlambert = new Sword("scFlambert", SCFLAMBERTMATERIAL).setCreativeTab(tabHeroicArmory);
+		scBlueCrystalRod = new Sword("scBlueCrystalRod", SCBLUECRYSTALRODMATERIAL).setCreativeTab(tabHeroicArmory);
+		scFireBlade = new Sword("scFireBlade", SCFIREBLADEMATERIAL).setCreativeTab(tabHeroicArmory);
+		scXiSword = new Sword("scXiSword", SCXISWORDMATERIAL).setCreativeTab(tabHeroicArmory);
+		scOmegaSword2P = new Sword("scOmegaSword2P", SCOMEGASWORD2PMATERIAL).setCreativeTab(tabHeroicArmory);
+		scOmegaSword = new Sword("scOmegaSword", SCOMEGASWORDMATERIAL).setCreativeTab(tabHeroicArmory);
+		scOrichalcum = new Sword("scOrichalcum", SCORICHALCUMMATERIAL).setCreativeTab(tabHeroicArmory);
+		scStiletto = new Sword("scStiletto", SCSTILETTOMATERIAL).setCreativeTab(tabHeroicArmory);
+		scRequiem = new Sword("scRequiem", SCREQUIEMMATERIAL).setCreativeTab(tabHeroicArmory);
+		scFaust = new Sword("scFaust", SCFAUSTMATERIAL).setCreativeTab(tabHeroicArmory);
+		scFlamberge = new Sword("scFlamberge", SCFLAMBERGEMATERIAL).setCreativeTab(tabHeroicArmory);
+		scSteelPaddle = new Sword("scSteelPaddle", SCSTEELPADDLEMATERIAL).setCreativeTab(tabHeroicArmory);
+		scGlam = new Sword("scGlam", SCGLAMMATERIAL).setCreativeTab(tabHeroicArmory);
+		scGreatBlade = new Sword("scGreatBlade", SCGREATBLADEMATERIAL).setCreativeTab(tabHeroicArmory);
 
 		//rs
 		rsBronzeSword = new Sword("rsBronzeSword", RSBRONZESWORDMATERIAL).setCreativeTab(tabHeroicArmory);
@@ -487,11 +639,51 @@ public class ModItems {
 		rsBandosGodsword = new Sword("rsBandosGodsword", RSBANDOSGODSWORDMATERIAL).setCreativeTab(tabHeroicArmory);
 		rsArmadylGodsword = new Sword("rsArmadylGodsword", RSARMADYLGODSWORDMATERIAL).setCreativeTab(tabHeroicArmory);
 		rsSaradominGodsword = new Sword("rsSaradominGodsword", RSSARADOMINGODSWORDMATERIAL).setCreativeTab(tabHeroicArmory);
+		rsBarrelchestAnchor = new Sword("rsBarrelchestAnchor", RSBARRELCHESTANCHORMATERIAL).setCreativeTab(tabHeroicArmory);
 
 		//dmc
 		dmcRedQueen = new Sword("dmcRedQueen", DMCREDQUEENMATERIAL).setCreativeTab(tabHeroicArmory);
 		dmcRebellion = new Sword("dmcRebellion", DMCREBELLIONMATERIAL).setCreativeTab(tabHeroicArmory);
 		dmcYamato = new Sword("dmcYamato", DMCYAMATOMATERIAL).setCreativeTab(tabHeroicArmory);
+
+		//pkmn
+		pkmnHonedgeShiny = new Sword("pkmnHonedgeShiny", PKMNHONEDGESHINYMATERIAL).setCreativeTab(tabHeroicArmory);
+		pkmnHonedge = new Sword("pkmnHonedge", PKMNHONEDGEMATERIAL).setCreativeTab(tabHeroicArmory);
+
+		//kirby
+		kirbyGalaxia = new Sword("kirbyGalaxia", KIRBYGALAXIAMATERIAL).setCreativeTab(tabHeroicArmory);
+		kirbyKirbyUltraSword = new Sword("kirbyKirbyUltraSword", KIRBYKIRBYULTRASWORDMATERIAL).setCreativeTab(tabHeroicArmory);
+		kirbyKirbySword = new Sword("kirbyKirbySword", KIRBYKIRBYSWORDMATERIAL).setCreativeTab(tabHeroicArmory);
+
+		//fe
+		feChromFalchion = new Sword("feChromFalchion", FECHROMFALCHIONMATERIAL).setCreativeTab(tabHeroicArmory);
+		feFalchion = new Sword("feFalchion", FEFALCHIONMATERIAL).setCreativeTab(tabHeroicArmory);
+
+		//kh
+		khKeyblade = new Sword("khKeyblade", KHKEYBLADEMATERIAL).setCreativeTab(tabHeroicArmory);
+
+		//bleach
+		bleachZabimaru = new Sword("bleachZabimaru", BLEACHZABIMARUMATERIAL).setCreativeTab(tabHeroicArmory);
+		bleachZangestsu = new Sword("bleachZangestsu", BLEACHZANGESTSUMATERIAL).setCreativeTab(tabHeroicArmory);
+
+		//ds
+		dsGreatswordofArtorias = new Sword("dsGreatswordofArtorias", DSGREATSWORDOFARTORIASMATERIAL).setCreativeTab(tabHeroicArmory);
+		dsGreatLordGreatsword = new Sword("dsGreatLordGreatsword", DSGREATLORDGREATSWORDMATERIAL).setCreativeTab(tabHeroicArmory);
+		dsAstoraGreatsword = new Sword("dsAstoraGreatsword", DSASTORAGREATSWORDMATERIAL).setCreativeTab(tabHeroicArmory);
+		dsZweilhander = new Sword("dsZweilhander", DSZWEILHANDERMATERIAL).setCreativeTab(tabHeroicArmory);
+
+		//myth
+		mythDeathScythe = new Sword("mythDeathScythe", MYTHDEATHSCYTHEMATERIAL).setCreativeTab(tabHeroicArmory);
+		mythTheDevilPitchfork = new Sword("mythTheDevilPitchfork", MYTHTHEDEVILPITCHFORKMATERIAL).setCreativeTab(tabHeroicArmory);
+
+		//bayonetta
+		bayonettaSharuba = new Sword("bayonettaSharuba", BAYONETTASHARUBAMATERIAL).setCreativeTab(tabHeroicArmory);
+
+		//gow
+		gowLeviathanUpgraded = new Sword("gowLeviathanUpgraded", GOWLEVIATHANUPGRADEDMATERIAL).setCreativeTab(tabHeroicArmory);
+		gowLeviathan = new Sword("gowLeviathan", GOWLEVIATHANMATERIAL).setCreativeTab(tabHeroicArmory);
+		gowBladeofOlympus = new Sword("gowBladeofOlympus", GOWBLADEOFOLYMPUSMATERIAL).setCreativeTab(tabHeroicArmory);
+		gowBladeofChaos = new Sword("gowBladeofChaos", GOWBLADEOFCHAOSMATERIAL).setCreativeTab(tabHeroicArmory);
 
 		
 		//Loot Tables
@@ -507,7 +699,7 @@ public class ModItems {
 		event.getRegistry().registerAll(lotrGimliBattleAxe,lotrGimliLongAxe,lotrMorgulBlade,lotrSting,lotrGlamdring,lotrAnduril,lotrNarsil,lotrSauronMace,lotrWitchKingSword);
 
 		//loz
-		event.getRegistry().registerAll(lozMasterSword,lozMasterSwordII,lozTemperedSword,lozMasterSwordIII,lozGoldenSword,lozFlameblade,lozDarknutSwordTp,lozGhirahimSword,lozFierceDietySword,lozZeldaSword,lozBokoStick,lozCaneofByrna,lozMegatonHammer,lozKokiriSwordMm,lozKokiriSwordOoT,lozDemiseSword,lozGiantKnife,lozBiggoronSword,lozPhantomGanonSword,lozUltimateSword,lozRoyalGuardSword,lozMagicSwordConcept,lozMagicSword,lozWhiteSword,lozWhiteSwordConcept,lozPicoriBlade,lozRazorSword,lozGreatFairySword,lozGoddessWhiteSword,lozGoddessSword,lozGildedSword);
+		event.getRegistry().registerAll(lozMasterSword,lozMasterSwordII,lozTemperedSword,lozMasterSwordIII,lozGoldenSword,lozFlameblade,lozDarknutSwordTp,lozGhirahimSword,lozFierceDietySword,lozZeldaSword,lozBokoStick,lozCaneofByrna,lozMegatonHammer,lozKokiriSwordMm,lozKokiriSwordOoT,lozDemiseSword,lozGiantKnife,lozBiggoronSword,lozPhantomGanonSword,lozUltimateSword,lozRoyalGuardSword,lozMagicSwordConcept,lozMagicSword,lozWhiteSword,lozWhiteSwordConcept,lozPicoriBlade,lozRazorSword,lozGreatFairySword,lozGoddessWhiteSword,lozGoddessSword,lozGildedSword,lozSpikedBokoClub,lozBokoClub);
 
 		//at
 		event.getRegistry().registerAll(atJakeSword,atCrystalSword,atNothung,atFinnSword,atSwordoftheDead,atWishStarSword,atFightKingSword,atRootSword,atScarlet,atGrassSword,atDemonBloodSword);
@@ -519,13 +711,40 @@ public class ModItems {
 		event.getRegistry().registerAll(rotmgSwordoftheColossus,rotmgCrystalSword,rotmgPixieEnchantedSword,rotmgSwordOfAcclaim,rotmgDemonBlade,rotmgSwordoftheMadGod,rotmgIndomptable,rotmgPirateKingCutlass,rotmgSwordofSplendor,rotmgSkysplitterSword,rotmgArchonSword,rotmgAncientStoneSword,rotmgDragonsoulSword,rotmgRavenheartSword);
 
 		//sc
-		event.getRegistry().registerAll(scFirangi,scCocytus,scErlangBlade,scSoulEdgeNightmare,scPhlegathon,scAcheron,scLethe);
+		event.getRegistry().registerAll(scFirangi,scCocytus,scErlangBlade,scSoulEdgeNightmare,scPhlegathon,scAcheron,scLethe,scQueenGuard,scHolyAntler,scEpee,scWarHammer,scKalutues,scEstoc,scFlambert2P,scReiterpallasch,scFlambert,scBlueCrystalRod,scFireBlade,scXiSword,scOmegaSword2P,scOmegaSword,scOrichalcum,scStiletto,scRequiem,scFaust,scFlamberge,scSteelPaddle,scGlam,scGreatBlade);
 
 		//rs
-		event.getRegistry().registerAll(rsBronzeSword,rsIronSword,rsWhiteSword,rsBlackSword,rsSteelSword,rsMithrilSword,rsAdamantSword,rsRuneSword,rsDragonSword,rsBronzeBattleaxe,rsIronBattleaxe,rsSteelBattleaxe,rsBlackBattleaxe,rsWhiteBattleaxe,rsMithrilBattleaxe,rsAdamantBattleaxe,rsRuneBattleaxe,rsDragonBattleaxe,rsBronzeScimitar,rsIronScimitar,rsBlackScimitar,rsWhiteScimitar,rsSteelScimitar,rsMithrilScimitar,rsAdamantScimitar,rsRuneScimitar,rsDragonScimitar,rsBronzeWarhammer,rsIronWarhammer,rsSteelWarhammer,rsBlackWarhammer,rsWhiteWarhammer,rsMithrilWarhammer,rsAdamantWarhammer,rsRuneWarhammer,rsBronzeMace,rsIronMace,rsSteelMace,rsBlackMace,rsWhiteMace,rsMithrilMace,rsAdamantMace,rsRuneMace,rsGraniteLongsword,rsGraniteHammer,rsGraniteMaul,rsElderMaul,rsToktzxilak,rsWolfsbane,rsZamorakGodsword,rsBandosGodsword,rsArmadylGodsword,rsSaradominGodsword);
+		event.getRegistry().registerAll(rsBronzeSword,rsIronSword,rsWhiteSword,rsBlackSword,rsSteelSword,rsMithrilSword,rsAdamantSword,rsRuneSword,rsDragonSword,rsBronzeBattleaxe,rsIronBattleaxe,rsSteelBattleaxe,rsBlackBattleaxe,rsWhiteBattleaxe,rsMithrilBattleaxe,rsAdamantBattleaxe,rsRuneBattleaxe,rsDragonBattleaxe,rsBronzeScimitar,rsIronScimitar,rsBlackScimitar,rsWhiteScimitar,rsSteelScimitar,rsMithrilScimitar,rsAdamantScimitar,rsRuneScimitar,rsDragonScimitar,rsBronzeWarhammer,rsIronWarhammer,rsSteelWarhammer,rsBlackWarhammer,rsWhiteWarhammer,rsMithrilWarhammer,rsAdamantWarhammer,rsRuneWarhammer,rsBronzeMace,rsIronMace,rsSteelMace,rsBlackMace,rsWhiteMace,rsMithrilMace,rsAdamantMace,rsRuneMace,rsGraniteLongsword,rsGraniteHammer,rsGraniteMaul,rsElderMaul,rsToktzxilak,rsWolfsbane,rsZamorakGodsword,rsBandosGodsword,rsArmadylGodsword,rsSaradominGodsword,rsBarrelchestAnchor);
 
 		//dmc
 		event.getRegistry().registerAll(dmcRedQueen,dmcRebellion,dmcYamato);
+
+		//pkmn
+		event.getRegistry().registerAll(pkmnHonedgeShiny,pkmnHonedge);
+
+		//kirby
+		event.getRegistry().registerAll(kirbyGalaxia,kirbyKirbyUltraSword,kirbyKirbySword);
+
+		//fe
+		event.getRegistry().registerAll(feChromFalchion,feFalchion);
+
+		//kh
+		event.getRegistry().registerAll(khKeyblade);
+
+		//bleach
+		event.getRegistry().registerAll(bleachZabimaru,bleachZangestsu);
+
+		//ds
+		event.getRegistry().registerAll(dsGreatswordofArtorias,dsGreatLordGreatsword,dsAstoraGreatsword,dsZweilhander);
+
+		//myth
+		event.getRegistry().registerAll(mythDeathScythe,mythTheDevilPitchfork);
+
+		//bayonetta
+		event.getRegistry().registerAll(bayonettaSharuba);
+
+		//gow
+		event.getRegistry().registerAll(gowLeviathanUpgraded,gowLeviathan,gowBladeofOlympus,gowBladeofChaos);
 
 
 	}
@@ -578,6 +797,8 @@ public class ModItems {
 		registerRender(lozGoddessWhiteSword);
 		registerRender(lozGoddessSword);
 		registerRender(lozGildedSword);
+		registerRender(lozSpikedBokoClub);
+		registerRender(lozBokoClub);
 
 		//at
 		registerRender(atJakeSword);
@@ -620,6 +841,28 @@ public class ModItems {
 		registerRender(scPhlegathon);
 		registerRender(scAcheron);
 		registerRender(scLethe);
+		registerRender(scQueenGuard);
+		registerRender(scHolyAntler);
+		registerRender(scEpee);
+		registerRender(scWarHammer);
+		registerRender(scKalutues);
+		registerRender(scEstoc);
+		registerRender(scFlambert2P);
+		registerRender(scReiterpallasch);
+		registerRender(scFlambert);
+		registerRender(scBlueCrystalRod);
+		registerRender(scFireBlade);
+		registerRender(scXiSword);
+		registerRender(scOmegaSword2P);
+		registerRender(scOmegaSword);
+		registerRender(scOrichalcum);
+		registerRender(scStiletto);
+		registerRender(scRequiem);
+		registerRender(scFaust);
+		registerRender(scFlamberge);
+		registerRender(scSteelPaddle);
+		registerRender(scGlam);
+		registerRender(scGreatBlade);
 
 		//rs
 		registerRender(rsBronzeSword);
@@ -675,11 +918,51 @@ public class ModItems {
 		registerRender(rsBandosGodsword);
 		registerRender(rsArmadylGodsword);
 		registerRender(rsSaradominGodsword);
+		registerRender(rsBarrelchestAnchor);
 
 		//dmc
 		registerRender(dmcRedQueen);
 		registerRender(dmcRebellion);
 		registerRender(dmcYamato);
+
+		//pkmn
+		registerRender(pkmnHonedgeShiny);
+		registerRender(pkmnHonedge);
+
+		//kirby
+		registerRender(kirbyGalaxia);
+		registerRender(kirbyKirbyUltraSword);
+		registerRender(kirbyKirbySword);
+
+		//fe
+		registerRender(feChromFalchion);
+		registerRender(feFalchion);
+
+		//kh
+		registerRender(khKeyblade);
+
+		//bleach
+		registerRender(bleachZabimaru);
+		registerRender(bleachZangestsu);
+
+		//ds
+		registerRender(dsGreatswordofArtorias);
+		registerRender(dsGreatLordGreatsword);
+		registerRender(dsAstoraGreatsword);
+		registerRender(dsZweilhander);
+
+		//myth
+		registerRender(mythDeathScythe);
+		registerRender(mythTheDevilPitchfork);
+
+		//bayonetta
+		registerRender(bayonettaSharuba);
+
+		//gow
+		registerRender(gowLeviathanUpgraded);
+		registerRender(gowLeviathan);
+		registerRender(gowBladeofOlympus);
+		registerRender(gowBladeofChaos);
 
 
 	}
