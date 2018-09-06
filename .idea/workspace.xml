@@ -1,163 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="161b2799-e191-420f-8a00-94a38c92e4e1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/models/16x_short.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/32x_longer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/honedge.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/keyblade.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/scythe.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateFiles.js" beforeDir="false" afterPath="$PROJECT_DIR$/generateFiles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroic_armory.psd" beforeDir="false" afterPath="$PROJECT_DIR$/heroic_armory.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroic_armory_sprites.png" beforeDir="false" afterPath="$PROJECT_DIR$/heroic_armory_sprites.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itemData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/itemData.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/32x_long.json" beforeDir="false" afterPath="$PROJECT_DIR$/models/32x_long.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/wishstar.json" beforeDir="false" afterPath="$PROJECT_DIR$/models/wishstar.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HeroicArmory/init/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HeroicArmory/init/ModItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/lang/en_US.lang" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/lang/en_US.lang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/loot_tables/loot.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/loot_tables/loot.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/atwishstarsword.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/atwishstarsword.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/rsarmadylgodsword.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/rsarmadylgodsword.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/rsbandosgodsword.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/rsbandosgodsword.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/rssaradomingodsword.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/rssaradomingodsword.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/rszamorakgodsword.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/rszamorakgodsword.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/at/crystal_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/at/demon_blood_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/at/fight_king_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/at/finn_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/at/grass_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/at/jake_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/at/nothung.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/at/root_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/at/scarlet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/at/sword_of_the_dead.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/at/wish_star_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/dmc/rebellion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/dmc/red_queen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/dmc/yamato.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/ff/buster_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/ff/the_masamune.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/lotr/anduril.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/lotr/anduril.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/lotr/gimli_battle_axe.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/lotr/gimli_battle_axe.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/lotr/gimli_long_axe.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/lotr/gimli_long_axe.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/lotr/glamdring.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/lotr/glamdring.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/lotr/morgul_blade.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/lotr/morgul_blade.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/lotr/narsil.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/lotr/narsil.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/lotr/sauron_mace.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/lotr/sting.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/lotr/sting.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/lotr/witch_king_sword.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/lotr/witch_king_sword.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/biggoron_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/boko_stick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/cane_of_byrna.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/darknut_sword_tp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/demise_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/fierce_diety_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/flameblade.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/ghirahim_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/giant_knife.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/gilded_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/goddess_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/goddess_white_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/golden_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/great_fairy_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/kokiri_sword_mm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/kokiri_sword_oot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/magic_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/magic_sword_concept.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/master_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/master_sword_ii.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/master_sword_iii.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/megaton_hammer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/phantom_ganon_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/picori_blade.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/razor_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/royal_guard_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/tempered_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/ultimate_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/white_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/white_sword_concept.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/zelda_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/ancient_stone_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/archon_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/crystal_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/demon_blade.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/dragonsoul_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/indomptable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/pirate_king_cutlass.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/pixie_enchanted_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/ravenheart_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/skysplitter_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/sword_of_acclaim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/sword_of_splendor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/sword_of_the_colossus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/sword_of_the_mad_god.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/adamant_battleaxe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/adamant_mace.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/adamant_scimitar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/adamant_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/adamant_warhammer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/armadyl_godsword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/bandos_godsword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/black_battleaxe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/black_mace.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/black_scimitar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/black_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/black_warhammer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/bronze_battleaxe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/bronze_mace.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/bronze_scimitar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/bronze_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/bronze_warhammer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/dragon_battleaxe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/dragon_scimitar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/dragon_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/elder_maul.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/granite_hammer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/granite_longsword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/granite_maul.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/iron_battleaxe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/iron_mace.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/iron_scimitar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/iron_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/iron_warhammer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/mithril_battleaxe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/mithril_mace.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/mithril_scimitar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/mithril_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/mithril_warhammer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/rune_battleaxe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/rune_mace.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/rune_scimitar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/rune_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/rune_warhammer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/saradomin_godsword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/steel_battleaxe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/steel_mace.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/steel_scimitar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/steel_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/steel_warhammer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/toktz_xil_ak.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/white_battleaxe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/white_mace.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/white_scimitar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/white_sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/white_warhammer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/wolfsbane.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/zamorak_godsword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/sc/acheron.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/sc/cocytus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/sc/erlang_blade.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/sc/firangi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/sc/lethe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/sc/phlegathon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/sc/soul_edge_nightmare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/sc/soul_edge_nightmare.png.mcmeta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mcmod.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mcmod.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/texturePreview.htm" beforeDir="false" afterPath="$PROJECT_DIR$/texturePreview.htm" afterDir="false" />
-    </list>
+    <list default="true" id="161b2799-e191-420f-8a00-94a38c92e4e1" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -410,16 +254,15 @@
       <workItem from="1535227698588" duration="25849000" />
       <workItem from="1535309747362" duration="54283000" />
       <workItem from="1535596947420" duration="16000" />
-      <workItem from="1536086933907" duration="8532000" />
+      <workItem from="1536086933907" duration="9127000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88680000" />
+    <option name="totallyTimeSpent" value="89275000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17135416" />
       <window_info anchor="bottom" id="TODO" order="6" />
