@@ -1,21 +1,21 @@
-#Heroic Armory 
+# Heroic Armory
 
 A mod that adds more weapons.
 
-For more information, view the curseforge page: https://minecraft.curseforge.com/projects/heroic-armory
+For more information, view the curseforge page: [https://minecraft.curseforge.com/projects/heroic-armory](https://minecraft.curseforge.com/projects/heroic-armory)
 
-##Info
+## Info
 
 This project uses node.js to generate Java code. Sorry. It sources the information from a PSD and CSV file and uses that to generate the java code for the following files:
 
-- src\main\java\HeroicArmory\init\ModItems.java
+- src\main\java\heroicarmory\init\ModItems.java
 - src\main\resources\assets\heroicarmory\loot_tables\loot.json
 - src\main\resources\assets\heroicarmory\loot_tables\en_US.lang
 
 As well as generating all of the models and textures.
 
 
-##Credits
+## Credits
 
 - Choonster - Helped troubleshoot implementing drop tables
 - suppergerrie2.com - Pretty good intro forge modding tutorials / examples

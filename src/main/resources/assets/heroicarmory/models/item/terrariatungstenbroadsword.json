@@ -1,0 +1,33 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "heroicarmory:items/terraria/tungsten_broadsword"
+    },
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [ 18, 90, 0 ],
+			"translation": [ 0.00, 15.00, -7.25 ],
+			"scale": [ 2.00, 2.00, 1.00 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [ -340, -90, 0 ],
+			"translation": [ 0.00, 15.00, -7.25 ],
+			"scale": [ 2.00, 2.00, 1.00 ]
+		},
+		"firstperson_righthand": {
+			"rotation": [ 148, 70, 226 ],
+			"translation": [ 4.75, 12.75, -6.75 ],
+			"scale": [ 2.00, 2.00, 1.00 ]
+		},
+		"firstperson_lefthand": {
+			"rotation": [ 246, 282, 238 ],
+			"translation": [ 3.50, 13.50, -4.25 ],
+			"scale": [ 2.00, 2.00, 1.00 ]
+		},
+		"gui": {
+			"rotation": [ 0, 0, 0 ],
+			"translation": [ 7.0588235294117645, 7.0588235294117645, 0.75 ],
+			"scale": [ 1.8823529411764706, 1.8823529411764706, 1.00 ]
+		}
+	}
+}

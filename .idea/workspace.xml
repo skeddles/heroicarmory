@@ -1,54 +1,286 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="161b2799-e191-420f-8a00-94a38c92e4e1" name="Default" comment="" />
+    <list default="true" id="161b2799-e191-420f-8a00-94a38c92e4e1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ca_weblite_java_objc_bridge_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_21_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_ibm_icu_icu4j_core_mojang_51_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_mojang_authlib_1_5_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_mojang_patchy_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_mojang_realms_1_10_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_mojang_text2speech_1_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_paulscode_codecjorbis_20101023.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_paulscode_codecwav_20101023.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_paulscode_libraryjavasound_20101123.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_paulscode_librarylwjglopenal_20100824.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_paulscode_soundsystem_20120107.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_typesafe_akka_akka_actor_2_11_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_typesafe_config_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_io_commons_io_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_commons_logging_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_all_4_1_9_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__it_unimi_dsi_fastutil_7_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__java3d_vecmath_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jline_jline_2_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__lzma_lzma_0_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_java_dev_jna_jna_4_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_java_dev_jna_platform_3_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_java_jinput_jinput_2_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_java_jinput_jinput_platform_natives_linux_2_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_java_jinput_jinput_platform_natives_osx_2_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_java_jinput_jinput_platform_natives_windows_2_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_java_jutils_jutils_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_minecraft_launchwrapper_1_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_jopt_simple_jopt_simple_5_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_trove4j_trove4j_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_compress_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_core_2_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_fusesource_jansi_jansi_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_lwjgl_2_9_4_nightly_20150209.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_lwjgl_platform_natives_linux_2_9_4_nightly_20150209.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_lwjgl_platform_natives_osx_2_9_4_nightly_20150209.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_lwjgl_platform_natives_windows_2_9_4_nightly_20150209.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_lwjgl_util_2_9_4_nightly_20150209.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_debug_all_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_modules_scala_swing_2_11_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_modules_scala_xml_2_11_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_plugins_scala_continuations_library_2_11_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_plugins_scala_continuations_plugin_2_11_1_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_scala_actors_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_scala_actors_migration_2_11_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_scala_compiler_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_scala_library_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_scala_reflect_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__oshi_project_oshi_core_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/HeroicTreasure_api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/HeroicTreasure_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/HeroicTreasure_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/16x_flipped.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/daedricsword.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/pole_mid.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/HeroicTreasure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HeroicTreasure.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModItemsTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModItemsTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/heroicarmory-1.1.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/heroicarmory-1.1.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generateFiles.js" beforeDir="false" afterPath="$PROJECT_DIR$/generateFiles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heroic_armory.psd" beforeDir="false" afterPath="$PROJECT_DIR$/heroic_armory.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heroic_armory_sprites.png" beforeDir="false" afterPath="$PROJECT_DIR$/heroic_armory_sprites.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itemData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/itemData.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HeroicArmory/HeroicArmory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/heroicarmory/HeroicArmory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HeroicArmory/Reference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/heroicarmory/Reference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HeroicArmory/init/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/heroicarmory/init/ModItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HeroicArmory/items/ItemBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/heroicarmory/items/ItemBasic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HeroicArmory/items/Sword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/heroicarmory/items/Sword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/lang/en_US.lang" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/lang/en_US.lang" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/loot_tables/loot.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/loot_tables/loot.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/bayonettasharuba.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/rseldermaul.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/rseldermaul.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/rsgranitehammer.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/rsgranitehammer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/rsgranitemaul.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/rsgranitemaul.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/at/crystal_sword.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/at/crystal_sword.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/at/demon_blood_sword.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/at/demon_blood_sword.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/at/grass_sword.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/at/grass_sword.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/at/root_sword.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/at/root_sword.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/at/sword_of_the_dead.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/at/sword_of_the_dead.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/at/wish_star_sword.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/at/wish_star_sword.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/bayonetta/sharuba.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/ds/astora_greatsword.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/ds/astora_greatsword.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/goddess_sword.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/goddess_sword.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/goddess_white_sword.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/loz/goddess_white_sword.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/sword_of_splendor.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rotmg/sword_of_splendor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/toktz_xil_ak.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/textures/items/rs/toktz_xil_ak.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mcmod.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mcmod.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texturePreview.htm" beforeDir="false" afterPath="$PROJECT_DIR$/texturePreview.htm" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="915719824">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.29" value="2" />
+          <entry key="project.open.time.30" value="2" />
+          <entry key="project.open.time.33" value="2" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.50" value="1" />
+          <entry key="project.open.time.52" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="gradle" value="3" />
+          <entry key="info" value="7" />
+          <entry key="java" value="1057" />
+          <entry key="js" value="9" />
+          <entry key="json" value="2" />
+          <entry key="md" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Groovy" value="3" />
+          <entry key="JAVA" value="1057" />
+          <entry key="JSON" value="2" />
+          <entry key="JavaScript" value="9" />
+          <entry key="PLAIN_TEXT" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gradle" value="1" />
+          <entry key="gradlew" value="1" />
+          <entry key="info" value="1" />
+          <entry key="java" value="21" />
+          <entry key="json" value="2" />
+          <entry key="lang" value="1" />
+          <entry key="md" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Groovy" value="1" />
+          <entry key="JAVA" value="21" />
+          <entry key="JSON" value="2" />
+          <entry key="PLAIN_TEXT" value="4" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="generateFiles.js" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ModConfigTemplate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generateFiles.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="229" column="41" selection-start-line="229" selection-start-column="41" selection-end-line="229" selection-end-column="41" />
+            <state relative-caret-position="4658">
+              <caret line="274" column="41" selection-start-line="274" selection-start-column="41" selection-end-line="274" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ModItemsTemplate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="80" column="31" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/heroicarmory/ModConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mcmod.info" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mcmod.info">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.0.2491/snapshot/20170624/forgeSrc-1.12.2-14.23.0.2491-sources.jar!/net/minecraft/item/ItemStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="4012">
+              <caret line="311" column="31" selection-start-line="311" selection-start-column="21" selection-end-line="311" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="en_US.lang" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/heroicarmory/lang/en_US.lang">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/heroicarmory/init/ModItems.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2229">
-              <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+            <state relative-caret-position="30192">
+              <caret line="1812" column="124" selection-start-line="1812" selection-start-column="8" selection-end-line="1812" selection-end-column="124" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/heroicarmory/HeroicArmory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#853#854#0" expanded="true" />
+                <element signature="e#905#906#0" expanded="true" />
+                <element signature="e#980#981#0" expanded="true" />
+                <element signature="e#1036#1037#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.0.2491/snapshot/20170624/forgeSrc-1.12.2-14.23.0.2491-sources.jar!/net/minecraft/item/Item.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.0.2491/snapshot/20170624/forgeSrc-1.12.2-14.23.0.2491-sources.jar!/net/minecraft/item/ItemArmor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="986">
+              <caret line="93" column="24" selection-start-line="93" selection-start-column="24" selection-end-line="93" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -69,6 +301,15 @@
       <find>INFOPATH</find>
       <find>minecraftbyexample</find>
       <find>butts</find>
+      <find>modConfigTemplate</find>
+      <find>rotmg</find>
+      <find>lootLoad</find>
+      <find>rotmgEnabled</find>
+      <find>rose</find>
+      <find>HeroicArmory</find>
+      <find>clubber</find>
+      <find>damage</find>
+      <find>itemDamage</find>
     </findStrings>
     <replaceStrings>
       <replace>model: &quot;16x&quot;</replace>
@@ -83,6 +324,584 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="myGradleHomes">
+      <map>
+        <entry key="$PROJECT_DIR$" value="C:\Users\Sisters of Satan\.gradle\wrapper\dists\gradle-2.14-bin\76oc0mnc3ieqtsukq90mp0rxk\gradle-2.14" />
+      </map>
+    </option>
+    <option name="myGradleVersions">
+      <map>
+        <entry key="$PROJECT_DIR$" value="2.14" />
+      </map>
+    </option>
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="HeroicTreasure" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="HeroicTreasure" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="availableTasks">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="reobfJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'HeroicTreasure'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="sourceMainJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="deobfProvidedDummyTask" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="retromapReplacedTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles api classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="apiClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse classpath file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="eclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the Minecraft Server" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="runServer" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'HeroicTreasure'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="applyBinaryPatches" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="deobfMcMCP" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="extractMcpMappings" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes api resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processApiResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'HeroicTreasure'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="deobfCompileDummyTask" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="extractUserdev" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="extractRangemapReplacedTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Sets up the bare minimum to build a minecraft mod. Ideally for CI servers" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="setupCiWorkspace" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="makeEclipseCleanRunClient" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="retromapTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="DevWorkspace + the deobfuscated Minecraft source linked as a source jar." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="setupDecompWorkspace" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="sourceApiJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="retromapReplacedMain" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="extractMcpData" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="deobfMcSRG" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="extractNatives" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'HeroicTreasure'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="eclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles api Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileApiJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse JDT settings file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="eclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="retromapReplacedApi" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="extractRangemapReplacedMain" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse project file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="eclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="remapMcSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="extractAnnotationsJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="decompileMc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="getAssetIndex" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'HeroicTreasure'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="retromapMain" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="cleanEclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="extractRangemapReplacedApi" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="retromapApi" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="sourceJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="makeStart" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Cleans all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="cleanEclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'HeroicTreasure'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="cleanEclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="genSrgs" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="fixMcSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="getVersionJson" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Cleares the ForgeGradle cache. DONT RUN THIS unless you want a fresh start, or the dev tells you to." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="cleanCache" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="sourceTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="CIWorkspace + natives and assets to run and test Minecraft" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="setupDevWorkspace" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="recompileMc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the ForgeGradle run configurations for intellij Idea" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="genIntellijRuns" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="extractRangemapMain" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="getAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="cleanEclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="downloadClient" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="makeEclipseCleanRunServer" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="mergeJars" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="extractDependencyATs" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'HeroicTreasure'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="applySourcePatches" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="downloadServer" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="extractRangemapTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="splitServerJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="extractRangemapApi" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'HeroicTreasure'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the Minecraft client" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="runClient" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="4611311484278" />
+        <entry key="$PROJECT_DIR$/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="3435280500" />
+        <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="159431464" />
+      </map>
+    </option>
+    <option name="projectBuildClasspath">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/ad97fe8faaf01a3d3faacecd58e8fa6e78a973ca/guava-18.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.opencsv/opencsv/2.3/235993117036d44d126f76db9ea2202ee4884682/opencsv-2.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.cloudbees/diff4j/1.1/e01e5168c15a325a548be3a0d18af5eac6f6343f/diff4j-1.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.abrarsyed.jastyle/jAstyle/1.3/61707e2098d6ee76983a8c7c2915ac38c84115da/jAstyle-1.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/2.1.0/3d51239e46537fc45dd18c639cc29bbc4e390326/trove4j-2.1.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jponge/lzma-java/1.3/c0f18880fb29c7bfc088a6e114c66fe30a5e8df2/lzma-java-1.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.nothome/javaxdelta/2.0.1/c99bfecfaa91279b8a3d7d25a99cbbda107c903d/javaxdelta-2.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a6dc5db8a12928e583bd3f23e72d3ab611ecd58f/gson-2.2.4-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.tony19/named-regexp/0.2.3/74e99674da3dcbd04e30fc62e164073b4d95e8b9/named-regexp-0.2.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/65cba03c4f6207f2885f88206fcf52c53f8d111b/httpclient-4.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.3.3/884b613cfc42948ad5d4cf507286ffe19592ebed/httpmime-4.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jvnet.localizer/localizer/1.12/261a0e844fe30de1c30372135275fa0b299bdee4/localizer-1.12-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/1.4/48753e43ff29409fbbeadfb36186cbe27e41b179/commons-io-1.4-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/4809f38359edeea9487f747e09aa58ec8d3a54c5/httpcore-4.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/28bb0405fddaf04f15058fbfbe01fe2780d7d3b6/commons-logging-1.1.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.6/61e9f9d11fe3e12ec62f633006e99d75fd7f19c8/commons-codec-1.6-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minecraftforge.gradle/ForgeGradle/2.3-SNAPSHOT/b3a925ff21e9916833a9e1ced0ad92f36e60a2fb/ForgeGradle-2.3-SNAPSHOT.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.opencsv/opencsv/2.3/c23708cdb9e80a144db433e23344a788a1fd6599/opencsv-2.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.cloudbees/diff4j/1.1/645329c0d4ebbea5f73758929c6e63bab9e77204/diff4j-1.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.abrarsyed.jastyle/jAstyle/1.3/42431e5834cfb184d60be4142e2806cf2d806ea/jAstyle-1.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/2.1.0/c82f2749a460b95de4c9d2466b62f18c23c7c914/trove4j-2.1.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jponge/lzma-java/1.3/a25db9d4d385ccda4825ae1b47a7a61d86e595af/lzma-java-1.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.nothome/javaxdelta/2.0.1/d4f5d077f1b15c6f67595015d69572303ad3f66d/javaxdelta-2.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.tony19/named-regexp/0.2.3/370846bf3837952d981deb8f91e81da8c65b09e1/named-regexp-0.2.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minecraftforge/forgeflower/1.0.342-SNAPSHOT/83b7d227aa011da5f140558240149ed26a0f5d76/forgeflower-1.0.342-SNAPSHOT.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.3.3/e02368d7b56c0c376f227378a4f77de62864d020/httpmime-4.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jvnet.localizer/localizer/1.12/6d456886a035b2c3f758059da1f91a823eaa4a62/localizer-1.12.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/1.4/a8762d07e76cfde2395257a5da47ba7c1dbd3dce/commons-io-1.4.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/trove/trove/1.0.2/112b40581ab9a4d3de4636d49985a7f686d181c8/trove-1.0.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.6/b7f0fc8f61ecadeb3695f0b9464755eee44374d4/commons-codec-1.6.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="HeroicTreasure" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/ant-1.9.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/ant-launcher-1.9.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/gradle-base-services-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/gradle-base-services-groovy-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/gradle-cli-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/gradle-core-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/gradle-docs-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/gradle-installation-beacon-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/gradle-jvm-services-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/gradle-launcher-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/gradle-logging-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/gradle-messaging-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/gradle-model-core-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/gradle-model-groovy-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/gradle-native-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/gradle-open-api-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/gradle-process-services-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/gradle-resources-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/gradle-tooling-api-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/gradle-ui-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/gradle-wrapper-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/groovy-all-2.4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-announce-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-antlr-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-build-comparison-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-build-init-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-code-quality-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-dependency-management-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-diagnostics-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-ear-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-ide-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-ide-native-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-ide-play-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-ivy-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-jacoco-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-javascript-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-jetty-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-language-groovy-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-language-java-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-language-jvm-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-language-native-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-language-scala-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-maven-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-osgi-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-platform-base-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-platform-jvm-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-platform-native-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-platform-play-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-plugin-development-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-plugin-use-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-plugins-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-publish-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-reporting-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-resources-http-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-resources-s3-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-resources-sftp-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-scala-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-signing-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-sonar-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-test-kit-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-testing-base-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-testing-jvm-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-testing-native-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/gradle-tooling-api-builders-2.14.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14-bin/76oc0mnc3ieqtsukq90mp0rxk/gradle-2.14/lib/plugins/ivy-2.2.0.jar" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -100,15 +919,12 @@
         <option value="$PROJECT_DIR$/gen.js" />
         <option value="$PROJECT_DIR$/GEN.bat" />
         <option value="$PROJECT_DIR$/texture-preview.htm" />
-        <option value="$PROJECT_DIR$/src/main/java/HeroicArmory/init/ModItems.java" />
         <option value="$PROJECT_DIR$/texturePreview.htm" />
         <option value="$PROJECT_DIR$/loot.json" />
         <option value="$PROJECT_DIR$/lootTableTemplate.json" />
         <option value="$PROJECT_DIR$/texturePreviewTemplate.htm" />
         <option value="$PROJECT_DIR$/itemInfo.js" />
         <option value="$PROJECT_DIR$/generateFiles_fuckup.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/loot_tables/loot.json" />
-        <option value="$PROJECT_DIR$/ModItemsTemplate.java" />
         <option value="$PROJECT_DIR$/models/32x.json" />
         <option value="$PROJECT_DIR$/src/main/java/HeroicArmory/Reference.java" />
         <option value="$PROJECT_DIR$/models/dagger.json" />
@@ -118,18 +934,33 @@
         <option value="$PROJECT_DIR$/models/wishstar.json" />
         <option value="$PROJECT_DIR$/models/scythe.json" />
         <option value="$PROJECT_DIR$/models/keyblade.json" />
-        <option value="$PROJECT_DIR$/generateFiles.js" />
         <option value="$PROJECT_DIR$/models/honedge.json" />
         <option value="$PROJECT_DIR$/models/16x_short.json" />
+        <option value="$PROJECT_DIR$/src/main/java/HeroicArmory/Config.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mcmod.info" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/heroicarmory/loot_tables/loot.json" />
+        <option value="$PROJECT_DIR$/src/main/java/HeroicArmory/init/ModItems.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HeroicArmory/ModConfig.java" />
+        <option value="$PROJECT_DIR$/models/pole_mid.json" />
+        <option value="$PROJECT_DIR$/models/daedricsword.json" />
+        <option value="$PROJECT_DIR$/generateFiles.js" />
+        <option value="$PROJECT_DIR$/ModItemsTemplate.java" />
+        <option value="$PROJECT_DIR$/ModConfigTemplate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/heroicarmory/ModConfig.java" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
     <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -149,7 +980,7 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -162,68 +993,68 @@
           <expand>
             <path>
               <item name="HeroicTreasure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HeroicTreasure" type="462c0819:PsiDirectoryNode" />
+              <item name="HeroicTreasure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="HeroicTreasure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HeroicTreasure" type="462c0819:PsiDirectoryNode" />
+              <item name="HeroicTreasure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HeroicTreasure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HeroicTreasure" type="462c0819:PsiDirectoryNode" />
+              <item name="HeroicTreasure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="HeroicTreasure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HeroicTreasure" type="462c0819:PsiDirectoryNode" />
+              <item name="HeroicTreasure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HeroicTreasure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HeroicTreasure" type="462c0819:PsiDirectoryNode" />
+              <item name="HeroicTreasure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HeroicTreasure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HeroicTreasure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="heroicarmory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HeroicTreasure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HeroicTreasure" type="462c0819:PsiDirectoryNode" />
+              <item name="HeroicTreasure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="heroicarmory" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
+              <item name="items" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538950950897" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="Y:\Projects\Games\HeroicTreasure" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="Y:\Projects\Games\HeroicTreasure\models" />
       <recent name="Y:\Projects\Games\HeroicTreasure" />
@@ -255,98 +1086,98 @@
       <workItem from="1535309747362" duration="54283000" />
       <workItem from="1535596947420" duration="16000" />
       <workItem from="1536086933907" duration="9127000" />
+      <workItem from="1536429747161" duration="30185000" />
+      <workItem from="1536609656958" duration="3457000" />
+      <workItem from="1536897970835" duration="2378000" />
+      <workItem from="1537029220854" duration="11921000" />
+      <workItem from="1537469237412" duration="2164000" />
+      <workItem from="1537973850670" duration="5626000" />
+      <workItem from="1538252639254" duration="171000" />
+      <workItem from="1538764914054" duration="593000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89275000" />
+    <option name="totallyTimeSpent" value="147779000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17135416" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17803837" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="UI Designer" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.22234273" />
+      <window_info anchor="bottom" id="Build" order="11" sideWeight="0.49946696" weight="0.22234273" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17447917" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="UI Designer" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/models/witchkingsword.json" />
-    <entry file="file://$PROJECT_DIR$/models/tutorialitem.json" />
-    <entry file="file://$PROJECT_DIR$/models/16x.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="58" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/sauronmace.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/24x.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/scarlet.json" />
-    <entry file="file://$PROJECT_DIR$/ModItemsTemplate2.java" />
-    <entry file="file://$PROJECT_DIR$/languageTemplate.lang">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/lozbiggoronsword.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/test28.json" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/test24.json" />
-    <entry file="file://$PROJECT_DIR$/texture-preview.htm" />
-    <entry file="file://$PROJECT_DIR$/models/48x.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GEN.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/rotmgswordofthecolossus.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/rotmgswordofthecolossus.json" />
     <entry file="file://$PROJECT_DIR$/texturePreview.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -354,9 +1185,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/rsgranitelongsword.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/heroicarmory/models/item/rsgranitelongsword.json" />
     <entry file="file://$PROJECT_DIR$/loot.json" />
     <entry file="file://$PROJECT_DIR$/texturePreviewTemplate.htm">
       <provider selected="true" editor-type-id="text-editor">
@@ -366,42 +1195,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/generateFiles_old.js" />
-    <entry file="file://$PROJECT_DIR$/models/bustersword.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iteminfothing.js" />
     <entry file="file://$PROJECT_DIR$/itemInfo.js" />
     <entry file="file://$PROJECT_DIR$/generateFiles_fuckup.js" />
-    <entry file="file://$PROJECT_DIR$/lootTableTemplate.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/heroicarmory/loot_tables/loot.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="131" column="74" selection-start-line="131" selection-start-column="74" selection-end-line="131" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/changes.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/HeroicArmory/items/Sword.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/heroicarmory/items/Sword.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="10" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HeroicArmory/init/ModItems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1897">
-          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -416,30 +1217,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HeroicArmory/Reference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HeroicArmory/HeroicArmory.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ModItemsTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/32x_longer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -499,28 +1276,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/generateFiles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="229" column="41" selection-start-line="229" selection-start-column="41" selection-end-line="229" selection-end-column="41" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradlew.bat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -528,10 +1283,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HeroicArmory/Config.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/heroicarmory/loot_tables/loot.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/heroicarmory/lang/en_US.lang">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/languageTemplate.lang">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lootTableTemplate.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="162" selection-start-line="4" selection-start-column="162" selection-end-line="4" selection-end-column="162" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mcmod.info">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="119">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.0.2491/snapshot/20170624/forgeSrc-1.12.2-14.23.0.2491-sources.jar!/net/minecraft/world/storage/loot/LootPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.0.2491/snapshot/20170624/forgeSrc-1.12.2-14.23.0.2491-sources.jar!/net/minecraft/world/storage/loot/LootEntryItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -542,12 +1350,211 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/heroicarmory/lang/en_US.lang">
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.0.2491/snapshot/20170624/forgeSrc-1.12.2-14.23.0.2491-sources.jar!/net/minecraft/world/storage/loot/LootEntry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2229">
-          <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+        <state relative-caret-position="68">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.0.2491/snapshot/20170624/forgeSrc-1.12.2-14.23.0.2491-sources.jar!/net/minecraft/entity/monster/EntityIronGolem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1441">
+          <caret line="255" column="20" selection-start-line="255" selection-start-column="20" selection-end-line="255" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.0.2491/snapshot/20170624/forgeSrc-1.12.2-14.23.0.2491-sources.jar!/net/minecraft/block/BlockHopper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2550">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heroicarmory/Reference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/pole_mid.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/bustersword.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/32x_longer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/daedricsword.json" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/heroicarmory/items/ItemBasic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ModConfigTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generateFiles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4658">
+          <caret line="274" column="41" selection-start-line="274" selection-start-column="41" selection-end-line="274" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ModItemsTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="80" column="31" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heroicarmory/ModConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.0.2491/snapshot/20170624/forgeSrc-1.12.2-14.23.0.2491-sources.jar!/net/minecraft/item/ItemStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4012">
+          <caret line="311" column="31" selection-start-line="311" selection-start-column="21" selection-end-line="311" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heroicarmory/init/ModItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30192">
+          <caret line="1812" column="124" selection-start-line="1812" selection-start-column="8" selection-end-line="1812" selection-end-column="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.0.2491/snapshot/20170624/forgeSrc-1.12.2-14.23.0.2491-sources.jar!/net/minecraft/item/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.0.2491/snapshot/20170624/forgeSrc-1.12.2-14.23.0.2491-sources.jar!/net/minecraft/item/ItemArmor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="93" column="24" selection-start-line="93" selection-start-column="24" selection-end-line="93" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heroicarmory/HeroicArmory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+            <element signature="e#980#981#0" expanded="true" />
+            <element signature="e#1036#1037#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>HeroicTreasure</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30229884" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: ca.weblite:java-objc-bridge:1.0.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

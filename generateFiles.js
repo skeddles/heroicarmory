@@ -13,6 +13,41 @@ const INFOPATH = "./itemData.csv";
 const TEXTUREPATH = './src/main/resources/assets/heroicarmory/textures/items/';
 const MODELPATH = './src/main/resources/assets/heroicarmory/models/item/';
 
+function groupNameProper (groupId) {
+	let groupNames = {
+		lotr: "Lord of the Rings",
+		loz: "Legend of Zelda",
+		at: "Adventure Time",
+		bayonetta: "Bayonetta",
+		pkmn: "Pokemon",
+		kirby: "Kirby",
+		ff: "Final Fantasy",
+		rotmg: "Realm of the Mad God",
+		skyrim: "Skyrim",
+		fe: "Fire Emblem",
+		sc: "Soul Calibur",
+		kh: "Kingdom Hearts",
+		rs: "Runescape",
+		dmc: "Devil May Cry",
+		ds: "Dark Souls",
+		myth: "Mythology",
+		gow: "God of War",
+		mh: "Monster Hunter",
+		terraria: "Terraria",
+		got: "Game of Thrones",
+		sw: "Star Wars",
+		nh: "Nethack",
+		internet: "Internet",
+		abcm: "Merlin (ABC)",
+		bleach: 'Bleach',
+	};
+
+	if (groupNames.hasOwnProperty(groupId))
+		return groupNames[groupId];
+	else
+		return groupId;
+}
+
 process.stdout.write('\033c');
 console.log('Heroic Treasure Generator');
 
@@ -65,7 +100,8 @@ else {
             damage: item[4],
             durability: item[5],
             enchantability: item[6],
-            rarity: item[7]
+            rarity: item[7],
+            category: item[8],
 		};
 	});
 }
@@ -165,6 +201,7 @@ function processDocLayers (layerList) {
 						durability: 2000,
                         enchantability: 15,
                         rarity: 10,
+                        category: 'none',
 					};
 					console.log('\t\tadded to weapon list');
 
@@ -187,6 +224,10 @@ function processDocLayers (layerList) {
 				//rarity
                 if (!itemInfo.weaponGroups[layer.name][uName].hasOwnProperty('rarity'))
                     itemInfo.weaponGroups[layer.name][uName].rarity = 10; //0=ultra, 5=rare, 10=uncommon, 15=common, 20=dirt
+
+				//category
+                if (!itemInfo.weaponGroups[layer.name][uName].hasOwnProperty('category'))
+                    itemInfo.weaponGroups[layer.name][uName].category = 'none'; //none,joke,tech,holiday,
 
 			//GENERATE TEXTURES
 				let weaponInfo = itemInfo.weaponGroups[layer.name][uName];
@@ -213,6 +254,7 @@ function processDocLayers (layerList) {
 			//CREATE MODELS
 				const modelPath =  './src/main/resources/assets/heroicarmory/models/item/' + modelName(layer.name, weapon.name) +'.json';
 
+				console.log('opening','./models/'+ weaponInfo.model +'.json');
 				let modelCode = fs.readFileSync('./models/'+ weaponInfo.model +'.json', {encoding: 'utf8'});
 
 				modelCode = modelCode.replace('{{group}}', layer.name);
@@ -227,6 +269,8 @@ function processDocLayers (layerList) {
 					case "scythe":
 					case "keyblade":
 					case "honedge":
+					case "pole_mid":
+					case "daedricsword":
 						//calculate scale
 						const scale = res / Math.max(weapon.width, weapon.height);
                         modelCode = modelCode.replace(/{{scale}}/g, scale);
@@ -263,19 +307,23 @@ function generateModItems () {
     let itemVariablesCode = '';
     let itemMaterialCode = '';
     let createItemCode = '';
+    let creativeModeItemCode = '';
     let registerCode = '';
     let registerRenderCode = '';
 
     let languageFileCode = '';
 
     let lootTableCode = '';
+    let lootTableCodeMain = '';
 
     let htmlPreviewCode = '';
 
-    let itemDataCode = 'Group,Name,LayerName,Model,Damage,Durability,Enchantability,Rarity\r\n';
+    let itemDataCode = 'Group,Name,LayerName,Model,Damage,Durability,Enchantability,Rarity,Category\r\n';
 
-	var totalLootTableWeight = 0;
+	let totalLootTableWeight = 0;
 
+	let modConfigEnabledItemsCode = '';
+	let configDisableSeries = '';
 
     //loop through groups
     weaponGroupList.map(function (groupId) {
@@ -285,9 +333,26 @@ function generateModItems () {
         itemVariablesCode += '\r\n\t//'+groupId+'\r\n';
         itemMaterialCode += '\r\n\t//'+groupId+'\r\n';
         createItemCode += '\r\n\t\t//'+groupId+'\r\n';
+        creativeModeItemCode += '\r\n\t\t//'+groupId+'\r\n';
+        lootTableCodeMain += '\r\n\t\t\t//'+groupId+'\r\n';
         registerCode += '\r\n\t\t//'+groupId+'\r\n\t\tevent.getRegistry().registerAll(';
         registerRenderCode += '\r\n\t\t//'+groupId+'\r\n';
         languageFileCode += '#\r\n#'+groupId+'\r\n';
+
+        //disable individual items
+        modConfigEnabledItemsCode += '\r\n';
+        modConfigEnabledItemsCode += '\t\t@Name("'+groupNameProper(groupId)+'")\r\n';
+        modConfigEnabledItemsCode += '\t\tpublic final '+groupId+'Enabled '+groupId+'enabled = new '+groupId+'Enabled();\r\n';
+        modConfigEnabledItemsCode += '\t\tpublic static class '+groupId+'Enabled {\r\n';
+
+        //config disable set
+        configDisableSeries += '\r\n';
+        configDisableSeries += '\t\t@Name("Include '+groupNameProper(groupId)+'")\r\n';
+        configDisableSeries += '\t\t@Comment("Remove all '+groupNameProper(groupId)+' items from drop tables / creative mode")\r\n';
+        configDisableSeries += '\t\tpublic boolean '+groupId+' = true;\r\n';
+
+        //modConfigEnabledItemsCode += '\t\t\t@Name("Disable entire set")\r\n';
+		//modConfigEnabledItemsCode += '\t\t\tpublic boolean aaaDisableSet = false;\r\n';
 
     	//loop through weapons in group
         weaponList.map(function (weaponId) {
@@ -297,7 +362,7 @@ function generateModItems () {
         	let weapVar = groupId + camelName(weapon.layerName);
         	let matVar = materialName(groupId, weapon.layerName);
 
-        	let damage = weapon.damage - 4;
+        	let damage = weapon.damage;
         	let maxUses = weapon.durability;
         	let enchantability = weapon.enchantability;
         	let rarity = weapon.rarity;
@@ -305,9 +370,18 @@ function generateModItems () {
 
 			itemVariablesCode += '\tstatic Item '+ weapVar +';\r\n';
 
-			itemMaterialCode += '\tpublic static final ToolMaterial '+matVar+' = EnumHelper.addToolMaterial("'+matVar+'", 1, '+maxUses+', 1.0f, '+damage+'.0f, '+enchantability+');\r\n'
+			itemMaterialCode += '\tpublic static final ToolMaterial '+matVar+' = EnumHelper.addToolMaterial("'+matVar+'", 1, '+maxUses+', 1.0f, (float) (('+damage+'.0f) * ModConfig.damageScale - 4.0f), '+enchantability+');\r\n'
 
-			createItemCode += '\t\t'+ weapVar +' = new Sword("'+ weapVar +'", '+matVar+').setCreativeTab(tabHeroicArmory);\r\n';
+			createItemCode += '\t\t'+ weapVar +' = new Sword("'+ weapVar +'", '+matVar+');\r\n';
+
+			//creative mode items
+			creativeModeItemCode += '\t\tif (ModConfig.enabledItems.'+groupId+'enabled.'+weapVar;
+			creativeModeItemCode += ' && ModConfig.disableSeries.'+groupId;
+				if (weapon.category === 'joke' || weapon.category === 'tech' || weapon.category === 'generic')
+					creativeModeItemCode += ' && ModConfig.disableSets.'+weapon.category;
+				if (weapon.category === 'generic' && damage < 7)
+					creativeModeItemCode += ' && ModConfig.disableSets.lowtier';
+			creativeModeItemCode += ') '+ weapVar +'.setCreativeTab(tabHeroicArmory);\r\n';
 
 			registerCode += weapVar + ',';
 
@@ -315,39 +389,61 @@ function generateModItems () {
 
             languageFileCode += 'item.' + weapVar + '.name='+ weapon.name +'\r\n';
 
-            lootTableCode += '\t\t{name: "heroicarmory:'+weapVar+'", weight: '+rarity+', type: "item"},\r\n';
+            console.log('==================',weapon.name,damage);
+
+            //loot table items
+            lootTableCodeMain += '\t\t\tif (ModConfig.enabledItems.'+groupId+'enabled.'+weapVar;
+            lootTableCodeMain += ' && ModConfig.disableSeries.'+groupId;
+				if (weapon.category === 'joke' || weapon.category === 'tech' || weapon.category === 'generic')
+					lootTableCodeMain += ' && ModConfig.disableSets.'+weapon.category;
+				if (weapon.category === 'generic' && damage < 7)
+					lootTableCodeMain += ' && ModConfig.disableSets.lowtier';
+            lootTableCodeMain += ') entries.add(new LootEntryItem('+weapVar+', (int) ceil(Math.pow('+rarity+', ModConfig.rarityScale)), 60, new LootFunction[0], new LootCondition[0], "heroicarmory:'+weapVar+'"));\r\n';
+
 			totalLootTableWeight += +rarity;
 
             htmlPreviewCode += '\t<div style="background-image: url(src/main/resources/assets/heroicarmory/textures/items/'+ groupId +'/'+ underscoreName(weapon.layerName) +'.png)"></div>\r\n';
 
-            itemDataCode += [groupId, weapon.name,weapon.layerName,weapon.model,weapon.damage,weapon.durability,weapon.enchantability,weapon.rarity].join(',') + '\r\n';
+            itemDataCode += [groupId, weapon.name, weapon.layerName, weapon.model, weapon.damage, weapon.durability, weapon.enchantability, weapon.rarity, weapon.category].join(',') + '\r\n';
 
+            modConfigEnabledItemsCode += '\r\n';
+            modConfigEnabledItemsCode += '\t\t\t@Name("'+weapon.name+'")\r\n';
+            modConfigEnabledItemsCode += '\t\t\tpublic boolean '+weapVar+' = true;\r\n';
         });
 
         //end registercode
         registerCode = registerCode.substring(0, registerCode.length - 1);
         registerCode += ');\r\n';
+
+        modConfigEnabledItemsCode += '\t\t}\r\n';
+
 	});
+
+	//Add empty item to loot table
+	lootTableCodeMain += '\r\n\t\t\t//Empty Item\r\n';
+	lootTableCodeMain += '\t\t\tentries.add(new LootEntryItem(Items.BONE, (int) Math.round(('+ totalLootTableWeight +' / ModConfig.lootChance) - '+ totalLootTableWeight +'), 60, new LootFunction[0], new LootCondition[0], "heroicarmory:emptyItem"));\r\n';
 
     //save ModItems.java
     let modItemsTemplate = fs.readFileSync('./ModItemsTemplate.java', {encoding: 'utf8'});
     modItemsTemplate = modItemsTemplate.replace('/*{{ITEMVARIABLES}}*/',itemVariablesCode);
     modItemsTemplate = modItemsTemplate.replace('/*{{MATERIALVARIABLES}}*/',itemMaterialCode);
     modItemsTemplate = modItemsTemplate.replace('/*{{CREATEITEMS}}*/',createItemCode);
+    modItemsTemplate = modItemsTemplate.replace('/*{{CREATIVETAB}}*/',creativeModeItemCode);
     modItemsTemplate = modItemsTemplate.replace('/*{{REGISTERITEMS}}*/',registerCode);
     modItemsTemplate = modItemsTemplate.replace('/*{{REGISTERRENDERS}}*/',registerRenderCode);
-    fs.writeFileSync('./src/main/java/HeroicArmory/init/ModItems.java', modItemsTemplate);
+    modItemsTemplate = modItemsTemplate.replace('/*{{LOOTTABLEMAIN}}*/',lootTableCodeMain);
+    fs.writeFileSync('./src/main/java/heroicarmory/init/ModItems.java', modItemsTemplate);
+
+    //save ModConfig.java
+    let modConfigTemplate = fs.readFileSync('./ModConfigTemplate.java', {encoding: 'utf8'});
+    modConfigTemplate = modConfigTemplate.replace('/*{{ENABLEDITEMS}}*/',modConfigEnabledItemsCode);
+    modConfigTemplate = modConfigTemplate.replace('/*{{DISABLESERIES}}*/',configDisableSeries);
+    fs.writeFileSync('./src/main/java/heroicarmory/ModConfig.java', modConfigTemplate);
 
     //save language file template
     let languageFileTemplate = fs.readFileSync('./languageTemplate.lang', {encoding: 'utf8'});
     languageFileTemplate += languageFileCode;
     fs.writeFileSync('./src/main/resources/assets/heroicarmory/lang/en_US.lang', languageFileTemplate);
-
-    //save loot table json
-    let lootTableTemplate = fs.readFileSync('./lootTableTemplate.json', {encoding: 'utf8'});
-    lootTableTemplate = lootTableTemplate.replace('{{ENTRIES}}',lootTableCode);
-    lootTableTemplate = lootTableTemplate.replace('{{EMPTY}}', Math.round(totalLootTableWeight/2)); //25% of nothing
-    fs.writeFileSync('./src/main/resources/assets/heroicarmory/loot_tables/loot.json', lootTableTemplate);
 
     //save html
     let htmlFileTemplate = fs.readFileSync('./texturePreviewTemplate.htm', {encoding: 'utf8'});

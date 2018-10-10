@@ -3,7 +3,7 @@ package heroicarmory.init;
 import heroicarmory.Reference;
 import heroicarmory.items.ItemBasic;
 import heroicarmory.items.Sword;
-//import heroicarmory.items.SlowSword;
+import heroicarmory.ModConfig;
 
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.creativetab.CreativeTabs;
@@ -18,7 +18,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 import net.minecraft.util.ResourceLocation;
-import net.minecraft.init.Items; //dont need once custom
+import net.minecraft.init.Items;
 import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.storage.loot.LootEntry;
 import net.minecraft.world.storage.loot.LootEntryTable;
@@ -32,6 +32,9 @@ import net.minecraft.world.storage.loot.functions.LootFunction;
 import net.minecraft.world.storage.loot.functions.SetCount;
 import net.minecraft.world.storage.loot.functions.SetDamage;
 import net.minecraftforge.event.LootTableLoadEvent;
+
+import java.util.ArrayList;
+import static java.lang.Math.ceil;
 
 @Mod.EventBusSubscriber(modid=Reference.MODID)
 public class ModItems {
@@ -53,8 +56,11 @@ public class ModItems {
 	
 	public static void init() {
 
-	    //CREATE ITEMS & ASSIGN CREATIVE TAB============================================================================
+	    //CREATE ITEMS==================================================================================================
 		/*{{CREATEITEMS}}*/
+
+	    //ASSIGN CREATIVE TAB===========================================================================================
+		/*{{CREATIVETAB}}*/
 		
 		//Loot Tables
 		LootTableList.register(new ResourceLocation("heroicarmory", "loot"));
@@ -79,20 +85,34 @@ public class ModItems {
 	private static void registerRender(Item item) {
 		ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(item.getRegistryName(), "inventory"));
 	}
-	
-	
+
 	//loot tables
 	@SubscribeEvent
 	public static void lootLoad(LootTableLoadEvent evt) {
 		String name = evt.getName().toString();
-		
-		if (name.contains("chest")) {
-			System.out.println("added loot to loot table " + name);
-			LootEntry entry = new LootEntryTable(new ResourceLocation("heroicarmory:loot"), 1, 0, new LootCondition[0], "heroicarmorylootentry"); 
 
-			LootPool pool = new LootPool(new LootEntry[] {entry}, new LootCondition[0], new RandomValueRange(1), new RandomValueRange(1), "heroicarmorypool"); 
-			
-			evt.getTable().addPool(pool);
+
+
+		if (name.contains("chest")) {
+
+            //return if not a minecraft chest
+            if (ModConfig.includeModChests == false && name.contains("minecraft:") == false) {
+                System.out.println("skipping loot table '" + name + "' because mod chests are disabled in config");
+                return;
+            }
+
+            System.out.println("added loot to loot table '" + name + "'");
+
+            ArrayList<LootEntryItem> entries = new ArrayList<LootEntryItem>();
+
+            /*{{LOOTTABLEMAIN}}*/
+
+            LootEntry[] entriesArray = entries.toArray(new LootEntry[entries.size()]);
+
+            LootPool pool = new LootPool(entriesArray, new LootCondition[0], new RandomValueRange(1), new RandomValueRange(1), "heroicarmorypool");
+
+            evt.getTable().addPool(pool);
+
 		}
 	}
 

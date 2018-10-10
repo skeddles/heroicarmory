@@ -1,0 +1,33 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "heroicarmory:items/{{group}}/{{weapon}}"
+    },
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [ 18, 90, 0 ],
+			"translation": [ 0.00, -3.50, 2.25 ],
+			"scale": [ 2.00, 2.00, 1.00 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [ 20, -90, 0 ],
+			"translation": [ 0.00, -3.50, 2.25 ],
+			"scale": [ 2.00, 2.00, 1.00 ]
+		},
+		"firstperson_righthand": {
+			"rotation": [ 148, 70, -134 ],
+			"translation": [ 4.75, -2.00, 3.75 ],
+			"scale": [ 2.00, 2.00, 1.00 ]
+		},
+		"firstperson_lefthand": {
+			"rotation": [ -114, -78, -122 ],
+			"translation": [ 3.50, -2.00, 3.75 ],
+			"scale": [ 2.00, 2.00, 1.00 ]
+		},
+		"gui": {
+			"rotation": [ 0, 0, 0 ],
+			"translation": [ {{position}}, {{position}}, 0.75 ],
+			"scale": [ {{scale}}, {{scale}}, 1.00 ]
+		}
+	}
+}

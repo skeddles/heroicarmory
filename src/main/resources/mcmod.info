@@ -3,7 +3,7 @@
   "modid": "heroicarmory",
   "name": "Heroic Armory",
   "description": "Rare and useful weapons from heroes of the past!",
-  "version": "1.1",
+  "version": "1.2.0",
   "mcversion": "${mcversion}",
   "url": "http://samkeddy.com",
   "updateUrl": "",

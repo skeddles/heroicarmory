@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/HeroicTreasure.iml" filepath="$PROJECT_DIR$/.idea/HeroicTreasure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HeroicTreasure_api.iml" filepath="$PROJECT_DIR$/.idea/modules/HeroicTreasure_api.iml" group="HeroicTreasure" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HeroicTreasure_main.iml" filepath="$PROJECT_DIR$/.idea/modules/HeroicTreasure_main.iml" group="HeroicTreasure" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HeroicTreasure_test.iml" filepath="$PROJECT_DIR$/.idea/modules/HeroicTreasure_test.iml" group="HeroicTreasure" />
     </modules>
   </component>
 </project>

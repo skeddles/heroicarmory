@@ -59,10 +59,12 @@ item.atRootSword.name=Root Sword
 item.atScarlet.name=Scarlet
 item.atGrassSword.name=Grass Sword
 item.atDemonBloodSword.name=Demon Blood Sword
+item.atAxeBass.name=Axe Bass
 #
 #ff
 item.ffTheMasamune.name=The Masamune
 item.ffBusterSword.name=Buster Sword
+item.ffCaladbolg.name=Caladbolg
 #
 #rotmg
 item.rotmgSwordoftheColossus.name=Sword of the Colossus
@@ -203,10 +205,129 @@ item.mythDeathScythe.name=Death's Scythe
 item.mythTheDevilPitchfork.name=The Devil's Pitchfork
 #
 #bayonetta
-item.bayonettaSharuba.name=Sharuba
+item.bayonettaShuraba.name=Shuraba
+item.bayonettaAngelSlayer.name=Angel Slayer
 #
 #gow
 item.gowLeviathanUpgraded.name=Leviathan
 item.gowLeviathan.name=Leviathan
 item.gowBladeofOlympus.name=Blade of Olympus
 item.gowBladeofChaos.name=Blade of Chaos
+#
+#skyrim
+item.skyrimIronSword.name=Iron Sword
+item.skyrimIronWarhammer.name=Iron Warhammer
+item.skyrimSteelSword.name=Steel Sword
+item.skyrimSteelWarhammer.name=Steel Warhammer
+item.skyrimOrcishSword.name=Orcish Sword
+item.skyrimOrcishWarhammer.name=Orcish Warhammer
+item.skyrimDwarvenSword.name=Dwarven Sword
+item.skyrimDwarvenWarhammer.name=Dwarven Warhammer
+item.skyrimElvenSword.name=Elven Sword
+item.skyrimElvenWarhammer.name=Elven Warhammer
+item.skyrimGlassSword.name=Glass Sword
+item.skyrimGlassWarhammer.name=Glass Warhammer
+item.skyrimEbonySword.name=Ebony Sword
+item.skyrimEbonyWarhammer.name=Ebony Warhammer
+item.skyrimDaedricSword.name=Daedric Sword
+item.skyrimDaedricWarhammer.name=Daedric Warhammer
+item.skyrimDragonboneSword.name=Dragonbone Sword
+item.skyrimDragonboneWarhammer.name=Dragonbone Warhammer
+item.skyrimImperialSword.name=Imperial Sword
+item.skyrimDawnbreaker.name=Dawnbreaker
+item.skyrimAncientNordSword.name=Ancient Nord Sword
+item.skyrimChillrend.name=Chillrend
+item.skyrimEbonyBlade.name=Ebony Blade
+#
+#mh
+item.mhChickenDecapitator.name=Chicken Decapitator
+item.mhGolemBlade.name=Golem Blade
+item.mhDefender.name=Defender
+item.mhBlackBeltBlade.name=Black Belt Blade
+item.mhWailingCleaver.name=Wailing Cleaver
+item.mhGaelicFlame.name=Gaelic Flame
+item.mhBoneKatana.name=Bone Katana
+item.mhHellishSlasher.name=Hellish Slasher
+item.mhCentenarianDagger.name=Centenarian Dagger
+item.mhWyvernBladeBlood.name=Wyvern Blade Blood
+item.mhWyvernBladeHolly.name=Wyvern Blade Holly
+item.mhWyvernBladePale.name=Wyvern Blade Pale
+item.mhWyvernBladeAzure.name=Wyvern Blade Azure
+item.mhWyvernBladeLeaf.name=Wyvern Blade Leaf
+item.mhRathalosFlamesword.name=Rathalos Flamesword
+#
+#terraria
+item.terrariaPalmWoodSword.name=Palm Wood Sword
+item.terrariaBorealWoodSword.name=Boreal Wood Sword
+item.terrariaShadewoodSword.name=Shadewood Sword
+item.terrariaEbonwoodSword.name=Ebonwood Sword
+item.terrariaCopperShortsword.name=Copper Shortsword
+item.terrariaCopperBroadsword.name=Copper Broadsword
+item.terrariaTinShortsword.name=Tin Shortsword
+item.terrariaTinBroadsword.name=Tin Broadsword
+item.terrariaLeadShortsword.name=Lead Shortsword
+item.terrariaLeadBroadsword.name=Lead Broadsword
+item.terrariaSpear.name=Spear
+item.terrariaIronShortsword.name=Iron Shortsword
+item.terrariaIronBroadsword.name=Iron Broadsword
+item.terrariaSilverBroadsword.name=Silver Broadsword
+item.terrariaSilverShortsword.name=Silver Shortsword
+item.terrariaGoldShortsword.name=Gold Shortsword
+item.terrariaGoldBroadsword.name=Gold Broadsword
+item.terrariaTungstenBroadsword.name=Tungsten Broadsword
+item.terrariaTungstenShortsword.name=Tungsten Shortsword
+item.terrariaPlatinumShortsword.name=Platinum Shortsword
+item.terrariaPlatinumBroadsword.name=Platinum Broadsword
+item.terrariaMandibleBlade.name=Mandible Blade
+item.terrariaKatana.name=Katana
+item.terrariaExoticScimitar.name=Exotic Scimitar
+item.terrariaMuramasa.name=Muramasa
+item.terrariaFalconBlade.name=Falcon Blade
+item.terrariaBladeofGrass.name=Blade of Grass
+item.terrariaFieryGreatsword.name=Fiery Greatsword
+item.terrariaBoneSword.name=Bone Sword
+item.terrariaBloodButcherer.name=Blood Butcherer
+item.terrariaEnchantedSword.name=Enchanted Sword
+item.terrariaStarfury.name=Starfury
+item.terrariaBeeKeeper.name=Bee Keeper
+item.terrariaIceBlade.name=Ice Blade
+item.terrariaNightEdge.name=Night's Edge
+item.terrariaArkhalis.name=Arkhalis
+item.terrariaTrident.name=Trident
+item.terrariaTheRottedFork.name=The Rotted Fork
+item.terrariaWhitePhaseblade.name=White Phaseblade
+item.terrariaYellowPhaseblade.name=Yellow Phaseblade
+item.terrariaPurplePhaseblade.name=Purple Phaseblade
+item.terrariaGreenPhaseblade.name=Green Phaseblade
+item.terrariaRedPhaseblade.name=Red Phaseblade
+item.terrariaBluePhaseblade.name=Blue Phaseblade
+item.terrariaLightBane.name=Light's Bane
+item.terrariaDarkLance.name=Dark Lance
+item.terrariaPurpleClubberfish.name=Purple Clubberfish
+item.terrariaCactusSword.name=Cactus Sword
+item.terrariaSwordfish.name=Swordfish
+#
+#sw
+item.swYellowLightsaber.name=Yellow Lightsaber
+item.swGreenLightsaber.name=Green Lightsaber
+item.swBlueLightsaber.name=Blue Lightsaber
+item.swRedLightsaber.name=Red Lightsaber
+item.swMaceWinduLightsaber.name=Mace Windu's Lightsaber
+item.swTheInquisitorLightsaber.name=The Inquisitor's Lightsaber
+item.swDarthMaulLightsaber.name=Darth Maul's Lightsaber
+item.swQuiGonJinnLightsaber.name=Qui Gon Jinn's Lightsaber
+item.swKyloRenLightsaber.name=Kylo Ren's Lightsaber
+item.swCountDookuLightsaber.name=Count Dooku's Lightsaber
+item.swDarksaber.name=Darksaber
+#
+#internet
+item.internetDemonoidPitchfork.name=Demonoid's Pitchfork
+#
+#nh
+item.nhMagicbane.name=Magicbane
+item.nhAthame.name=Athame
+item.nhGrayswandir.name=Grayswandir
+item.nhSilverSaber.name=Silver Saber
+#
+#abcm
+item.abcmExcalibur.name=Excalibur
